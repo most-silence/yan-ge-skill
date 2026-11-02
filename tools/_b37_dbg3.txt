@@ -1,0 +1,24 @@
+FW8NPflTV7gt_眼哥股市会 1月26日.txt	 lines=754	 ts_lines=746	 chars=19380
+   first_ts=[00:00:00] 大家好,这里是眼哥
+   last_ts=[00:32:27] 拜拜
+FW8NPflTV7gt_眼哥股市会 1月26日._clean.txt	 lines=754	 ts_lines=746	 chars=19381
+   first_ts=[00:00:00] 大家好,这里是眼哥
+   last_ts=[00:32:27] 拜拜
+UOVzuGdzs1dA_眼哥股市会 9月23日.txt	 lines=1208	 ts_lines=1200	 chars=26408
+   first_ts=[00:00:00] 大家好,这里是眼哥
+   last_ts=[00:37:13] 拜拜
+UOVzuGdzs1dA_眼哥股市会 9月23日._clean.txt	 lines=1208	 ts_lines=1200	 chars=26408
+   first_ts=[00:00:00] 大家好,这里是眼哥
+   last_ts=[00:37:13] 拜拜
+pp9CcfoGIEKl_眼哥股市会 7.21日.txt	 lines=548	 ts_lines=540	 chars=12740
+   first_ts=[00:00:00] 大家好,这里是眼哥
+   last_ts=[00:19:27] 拜拜
+pp9CcfoGIEKl_眼哥股市会 7.21日._clean.txt	 lines=548	 ts_lines=540	 chars=12740
+   first_ts=[00:00:00] 大家好,这里是眼哥
+   last_ts=[00:19:27] 拜拜
+ZCI83GD81iH7_眼哥股市会 3月26日.txt	 lines=372	 ts_lines=364	 chars=11724
+   first_ts=[00:00:00] 大家好,这里是眼哥
+   last_ts=[00:22:26] 明天见
+ZCI83GD81iH7_眼哥股市会 3月26日._clean.txt	 lines=372	 ts_lines=364	 chars=11724
+   first_ts=[00:00:00] 大家好,这里是眼哥
+   last_ts=[00:22:26] 明天见

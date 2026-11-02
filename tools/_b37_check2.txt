@@ -1,0 +1,54 @@
+Q1 OK lines=7
+Q2 OK lines=6
+Q3 OK lines=9
+Q4 OK lines=9
+Q5 OK lines=7
+Q6 OK lines=6
+Q7 OK lines=12
+Q8 OK lines=9
+Q9 OK lines=6
+Q10 OK lines=12
+Q11 OK lines=4
+Q12 OK lines=19
+Q13 OK lines=15
+Q14 OK lines=9
+Q15 OK lines=5
+Q16 OK lines=4
+Q17 OK lines=8
+Q18 OK lines=5
+Q19 OK lines=15
+Q20 OK lines=7
+Q21 OK lines=6
+Q22 OK lines=6
+Q23 OK lines=17
+Q24 OK lines=4
+Q25 OK lines=4
+Q26 OK lines=5
+Q27 OK lines=10
+Q28 OK lines=3
+Q29 OK lines=2
+Q30 OK lines=6
+Q31 OK lines=3
+Q32 OK lines=8
+Q33 OK lines=3
+Q34 OK lines=5
+Q35 OK lines=11
+Q36 OK lines=3
+Q37 OK lines=3
+Q38 OK lines=8
+Q39 OK lines=4
+Q40 OK lines=4
+Q41 OK lines=4
+Q42 OK lines=4
+Q43 OK lines=7
+Q44 OK lines=3
+Q45 OK lines=3
+Q46 OK lines=9
+Q47 OK lines=6
+Q48 OK lines=7
+
+bad=0
+E2 闲钱: ['00:34:21']
+E2 葡萄: ['00:34:56', '00:35:14']
+E2 项目统: ['00:35:06']
+E2 巴菲特: ['00:33:31', '00:34:00']

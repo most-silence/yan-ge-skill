@@ -1,0 +1,42 @@
+# ===== 大体积原始素材：不入库（可复跑重建，见玟火仓库 tools/）=====
+sources/00-原始素材/
+sources/01-小宇宙转写/
+sources/02-抖音视频/
+sources/03-其他素材/
+sources/04-推荐书籍/
+sources/04-书籍文本/
+sources/05-播客转写/audio_txt/
+sources/05-播客转写/_batches/
+sources/05-播客转写/_分桶/
+sources/05-播客转写/_分桶_v1备份/
+sources/05-播客转写/_规则池.json
+sources/05-播客转写/_规则池.md
+books/
+*.m4a
+*.mp3
+*.mp4
+*.pdf
+*.epub
+
+# ===== Python 运行环境 =====
+tools/.venv/
+__pycache__/
+*.pyc
+
+# ===== 中间临时文件 =====
+_tmp_*
+_tmp/
+_tmp_grp/
+_tmp_mid/
+_stresstest/
+_gen_*.py
+*.log
+
+# ===== 抓取过程 HTML 快照（期次清单 JSON 保留，可复跑）=====
+research/_podcast_page.html
+research/biying_doc_zs.html
+tools/_xyz_page.html
+
+# ===== 系统 =====
+Thumbs.db
+desktop.ini

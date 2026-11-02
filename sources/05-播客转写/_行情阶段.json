@@ -1,0 +1,3673 @@
+{
+  "generated": "2026-10-31",
+  "source": "research/大盘数据.json 上证指数月度实测 + 全量清单.json 标题日期",
+  "regimes": [
+    {
+      "code": "R1",
+      "name": "主升强涨",
+      "start": "2025-06-30",
+      "end": "2025-08-31",
+      "basis": "上证 3340→3889，月涨 3.1%/3.7%/8.1%；日均成交额 5,096→9,558 亿，持续放量"
+    },
+    {
+      "code": "R2",
+      "name": "高位横盘",
+      "start": "2025-09-01",
+      "end": "2025-12-31",
+      "basis": "上证 3800–4034 区间震荡，月涨跌 +0.3/-1.7/+1.9；日均 7,741–10,305 亿"
+    },
+    {
+      "code": "R3",
+      "name": "冲高见顶",
+      "start": "2026-01-01",
+      "end": "2026-02-28",
+      "basis": "上证摸 4,191（全段最高）；1 月日均成交额 12,977 亿，为全期峰值"
+    },
+    {
+      "code": "R4",
+      "name": "第一波急跌",
+      "start": "2026-03-01",
+      "end": "2026-03-31",
+      "basis": "上证月跌 6.3%，4,197→3,795"
+    },
+    {
+      "code": "R5",
+      "name": "反弹",
+      "start": "2026-04-01",
+      "end": "2026-04-30",
+      "basis": "上证月涨 4.4%，3,871→4,119"
+    },
+    {
+      "code": "R6",
+      "name": "二次急跌",
+      "start": "2026-05-01",
+      "end": "2026-07-31",
+      "basis": "5 月 -1.6%，6 月 +0.7%，7 月 -6.3%（4,143→3,741）；成交额仍高但价格崩"
+    },
+    {
+      "code": "R7",
+      "name": "反弹",
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "basis": "上证月涨 4.6%，3,798→3,994"
+    },
+    {
+      "code": "R8",
+      "name": "再下跌",
+      "start": "2026-09-01",
+      "end": "2026-10-31",
+      "basis": "9 月 -3.5%，10 月 -3.7%；日均成交额缩到 7,496 亿，为本段最低"
+    }
+  ],
+  "episodes": [
+    {
+      "eid": "6uuvq5vHEZhA",
+      "title": "眼哥股市会 6.30日",
+      "date": "2025-06-30",
+      "regime": "R1",
+      "dur_sec": 1180,
+      "dur_min": 20,
+      "plays": 4585,
+      "has_clean": false
+    },
+    {
+      "eid": "NOmkU8F0ppGl",
+      "title": "眼哥股市会 7.1日",
+      "date": "2025-07-01",
+      "regime": "R1",
+      "dur_sec": 1197,
+      "dur_min": 20,
+      "plays": 3178,
+      "has_clean": false
+    },
+    {
+      "eid": "jgPaiO4RRLF2",
+      "title": "眼哥股市会 7.2日",
+      "date": "2025-07-02",
+      "regime": "R1",
+      "dur_sec": 1267,
+      "dur_min": 21,
+      "plays": 2940,
+      "has_clean": false
+    },
+    {
+      "eid": "CV7bN2tmhvDt",
+      "title": "眼哥股市会 7.3日",
+      "date": "2025-07-03",
+      "regime": "R1",
+      "dur_sec": 1292,
+      "dur_min": 22,
+      "plays": 3176,
+      "has_clean": false
+    },
+    {
+      "eid": "fxc9uwq2lHwb",
+      "title": "眼哥股市会 7.4日",
+      "date": "2025-07-04",
+      "regime": "R1",
+      "dur_sec": 1343,
+      "dur_min": 22,
+      "plays": 2454,
+      "has_clean": false
+    },
+    {
+      "eid": "2l4P1Hz7aS2N",
+      "title": "眼哥股市会 7月7日",
+      "date": "2025-07-07",
+      "regime": "R1",
+      "dur_sec": 982,
+      "dur_min": 16,
+      "plays": 2483,
+      "has_clean": false
+    },
+    {
+      "eid": "LQPV9ZJlMV4F",
+      "title": "眼哥股市会 7.8日",
+      "date": "2025-07-08",
+      "regime": "R1",
+      "dur_sec": 1457,
+      "dur_min": 24,
+      "plays": 3300,
+      "has_clean": false
+    },
+    {
+      "eid": "CbUrs52s2Itw",
+      "title": "眼哥股市会 7.9日",
+      "date": "2025-07-09",
+      "regime": "R1",
+      "dur_sec": 1072,
+      "dur_min": 18,
+      "plays": 2608,
+      "has_clean": false
+    },
+    {
+      "eid": "m6IaKqgn1aai",
+      "title": "眼哥股市会 7.10日",
+      "date": "2025-07-10",
+      "regime": "R1",
+      "dur_sec": 467,
+      "dur_min": 8,
+      "plays": 2242,
+      "has_clean": false
+    },
+    {
+      "eid": "oUdHwQsd8gM1",
+      "title": "眼哥股市会 7.11日",
+      "date": "2025-07-11",
+      "regime": "R1",
+      "dur_sec": 968,
+      "dur_min": 16,
+      "plays": 2537,
+      "has_clean": false
+    },
+    {
+      "eid": "V3iQ2TKXVsju",
+      "title": "眼哥股市会 7.12日",
+      "date": "2025-07-12",
+      "regime": "R1",
+      "dur_sec": 856,
+      "dur_min": 14,
+      "plays": 2275,
+      "has_clean": false
+    },
+    {
+      "eid": "vjftgN9jnYla",
+      "title": "眼哥股市会 7.14日",
+      "date": "2025-07-14",
+      "regime": "R1",
+      "dur_sec": 950,
+      "dur_min": 16,
+      "plays": 2992,
+      "has_clean": false
+    },
+    {
+      "eid": "jCSsdZOACzxt",
+      "title": "眼哥股市会 7.15日",
+      "date": "2025-07-15",
+      "regime": "R1",
+      "dur_sec": 951,
+      "dur_min": 16,
+      "plays": 3078,
+      "has_clean": false
+    },
+    {
+      "eid": "UctpWgFjYuUa",
+      "title": "眼哥故事会 7.16日",
+      "date": "2025-07-16",
+      "regime": "R1",
+      "dur_sec": 838,
+      "dur_min": 14,
+      "plays": 2609,
+      "has_clean": false
+    },
+    {
+      "eid": "TPYdtdJ6IkGR",
+      "title": "眼哥故事会 7.17日",
+      "date": "2025-07-17",
+      "regime": "R1",
+      "dur_sec": 1878,
+      "dur_min": 31,
+      "plays": 3493,
+      "has_clean": false
+    },
+    {
+      "eid": "qaMrCXIb2PFA",
+      "title": "眼哥股市会 7.18日",
+      "date": "2025-07-18",
+      "regime": "R1",
+      "dur_sec": 665,
+      "dur_min": 11,
+      "plays": 1953,
+      "has_clean": false
+    },
+    {
+      "eid": "pp9CcfoGIEKl",
+      "title": "眼哥股市会 7.21日",
+      "date": "2025-07-21",
+      "regime": "R1",
+      "dur_sec": 1167,
+      "dur_min": 19,
+      "plays": 3440,
+      "has_clean": false
+    },
+    {
+      "eid": "bUZeT4Y2wtTE",
+      "title": "眼哥股市会 7.22日",
+      "date": "2025-07-22",
+      "regime": "R1",
+      "dur_sec": 1093,
+      "dur_min": 18,
+      "plays": 3567,
+      "has_clean": false
+    },
+    {
+      "eid": "sI1FKFo33Lfv",
+      "title": "眼哥股市会 7.23日",
+      "date": "2025-07-23",
+      "regime": "R1",
+      "dur_sec": 2013,
+      "dur_min": 34,
+      "plays": 4246,
+      "has_clean": false
+    },
+    {
+      "eid": "bs18duNimKDv",
+      "title": "眼哥股市会 7.24日",
+      "date": "2025-07-24",
+      "regime": "R1",
+      "dur_sec": 1707,
+      "dur_min": 28,
+      "plays": 4326,
+      "has_clean": false
+    },
+    {
+      "eid": "D3twjq26IsZC",
+      "title": "眼哥故事会 7.25日",
+      "date": "2025-07-25",
+      "regime": "R1",
+      "dur_sec": 944,
+      "dur_min": 16,
+      "plays": 2535,
+      "has_clean": false
+    },
+    {
+      "eid": "9QdZNVyvydhb",
+      "title": "眼哥股市会 7.28日",
+      "date": "2025-07-28",
+      "regime": "R1",
+      "dur_sec": 1132,
+      "dur_min": 19,
+      "plays": 3464,
+      "has_clean": false
+    },
+    {
+      "eid": "eSlBh0zOfIco",
+      "title": "眼哥股市会 7.29日",
+      "date": "2025-07-29",
+      "regime": "R1",
+      "dur_sec": 686,
+      "dur_min": 11,
+      "plays": 3325,
+      "has_clean": false
+    },
+    {
+      "eid": "FOrgj35PhtN5",
+      "title": "眼哥股市会 7.30号",
+      "date": "2025-07-30",
+      "regime": "R1",
+      "dur_sec": 1188,
+      "dur_min": 20,
+      "plays": 4244,
+      "has_clean": false
+    },
+    {
+      "eid": "PUkfNms9WF8C",
+      "title": "眼哥股市会 7.31日",
+      "date": "2025-07-31",
+      "regime": "R1",
+      "dur_sec": 1452,
+      "dur_min": 24,
+      "plays": 4346,
+      "has_clean": false
+    },
+    {
+      "eid": "WgbPfZVs7Wr4",
+      "title": "眼哥股市会 8.1号",
+      "date": "2025-08-01",
+      "regime": "R1",
+      "dur_sec": 191,
+      "dur_min": 3,
+      "plays": 2154,
+      "has_clean": false
+    },
+    {
+      "eid": "HxvlOmhznmqS",
+      "title": "眼哥股市会 8.4日",
+      "date": "2025-08-04",
+      "regime": "R1",
+      "dur_sec": 861,
+      "dur_min": 14,
+      "plays": 3710,
+      "has_clean": false
+    },
+    {
+      "eid": "00bpTQ4HhOIL",
+      "title": "眼哥股市会 8.5日",
+      "date": "2025-08-05",
+      "regime": "R1",
+      "dur_sec": 1138,
+      "dur_min": 19,
+      "plays": 3543,
+      "has_clean": false
+    },
+    {
+      "eid": "VN836ZIkGS9u",
+      "title": "眼哥股市会 8.6号",
+      "date": "2025-08-06",
+      "regime": "R1",
+      "dur_sec": 1705,
+      "dur_min": 28,
+      "plays": 3931,
+      "has_clean": false
+    },
+    {
+      "eid": "y0alu5jno7q0",
+      "title": "眼哥股市会 8.7日",
+      "date": "2025-08-07",
+      "regime": "R1",
+      "dur_sec": 1382,
+      "dur_min": 23,
+      "plays": 4298,
+      "has_clean": false
+    },
+    {
+      "eid": "KKJKoAOUeZAB",
+      "title": "眼哥股市会 8.11日",
+      "date": "2025-08-11",
+      "regime": "R1",
+      "dur_sec": 1087,
+      "dur_min": 18,
+      "plays": 3923,
+      "has_clean": false
+    },
+    {
+      "eid": "QQqlkBcY2iym",
+      "title": "眼哥股市会 8.12日",
+      "date": "2025-08-12",
+      "regime": "R1",
+      "dur_sec": 2452,
+      "dur_min": 41,
+      "plays": 4169,
+      "has_clean": false
+    },
+    {
+      "eid": "MAMLuw72iT0p",
+      "title": "眼哥股市会 8.13日",
+      "date": "2025-08-13",
+      "regime": "R1",
+      "dur_sec": 1835,
+      "dur_min": 31,
+      "plays": 4167,
+      "has_clean": false
+    },
+    {
+      "eid": "J7T56Rh7XQb5",
+      "title": "眼哥股市会 8.14日",
+      "date": "2025-08-14",
+      "regime": "R1",
+      "dur_sec": 1995,
+      "dur_min": 33,
+      "plays": 4634,
+      "has_clean": false
+    },
+    {
+      "eid": "Ep8SUr5LrqV0",
+      "title": "眼哥股市会 8.15日",
+      "date": "2025-08-15",
+      "regime": "R1",
+      "dur_sec": 1747,
+      "dur_min": 29,
+      "plays": 4047,
+      "has_clean": false
+    },
+    {
+      "eid": "ANWNakuVHu87",
+      "title": "眼哥股市会 8.18日",
+      "date": "2025-08-18",
+      "regime": "R1",
+      "dur_sec": 1658,
+      "dur_min": 28,
+      "plays": 4321,
+      "has_clean": false
+    },
+    {
+      "eid": "ybEj2RJ3jywo",
+      "title": "眼哥股市会 8.19日",
+      "date": "2025-08-19",
+      "regime": "R1",
+      "dur_sec": 1367,
+      "dur_min": 23,
+      "plays": 4106,
+      "has_clean": false
+    },
+    {
+      "eid": "jTjpv3Xk4m8a",
+      "title": "眼哥股市会 8.20日",
+      "date": "2025-08-20",
+      "regime": "R1",
+      "dur_sec": 982,
+      "dur_min": 16,
+      "plays": 4283,
+      "has_clean": false
+    },
+    {
+      "eid": "OpX9ln7HfNXz",
+      "title": "眼哥股市会 8.21日",
+      "date": "2025-08-21",
+      "regime": "R1",
+      "dur_sec": 1225,
+      "dur_min": 20,
+      "plays": 4668,
+      "has_clean": false
+    },
+    {
+      "eid": "wjAU9u3sM4Jr",
+      "title": "眼哥股市会 8.22日",
+      "date": "2025-08-22",
+      "regime": "R1",
+      "dur_sec": 759,
+      "dur_min": 13,
+      "plays": 3549,
+      "has_clean": false
+    },
+    {
+      "eid": "2e5NKIkK4CYA",
+      "title": "眼哥故事会 8.25日",
+      "date": "2025-08-25",
+      "regime": "R1",
+      "dur_sec": 1017,
+      "dur_min": 17,
+      "plays": 4497,
+      "has_clean": false
+    },
+    {
+      "eid": "pHjytAlrXCYL",
+      "title": "眼哥股市会 8.26日",
+      "date": "2025-08-26",
+      "regime": "R1",
+      "dur_sec": 1136,
+      "dur_min": 19,
+      "plays": 4554,
+      "has_clean": false
+    },
+    {
+      "eid": "2MzsyDyvVI6v",
+      "title": "眼哥股市会 8.27日",
+      "date": "2025-08-27",
+      "regime": "R1",
+      "dur_sec": 871,
+      "dur_min": 15,
+      "plays": 7448,
+      "has_clean": false
+    },
+    {
+      "eid": "kCaUYqyPQLr6",
+      "title": "眼哥股市会 8.28日",
+      "date": "2025-08-28",
+      "regime": "R1",
+      "dur_sec": 1098,
+      "dur_min": 18,
+      "plays": 5157,
+      "has_clean": false
+    },
+    {
+      "eid": "yZSG6kIoaVEK",
+      "title": "眼哥股市会 8.29日",
+      "date": "2025-08-29",
+      "regime": "R1",
+      "dur_sec": 1484,
+      "dur_min": 25,
+      "plays": 4623,
+      "has_clean": false
+    },
+    {
+      "eid": "7C3n476cXVXx",
+      "title": "眼哥股市会 9.1日",
+      "date": "2025-09-01",
+      "regime": "R2",
+      "dur_sec": 949,
+      "dur_min": 16,
+      "plays": 4843,
+      "has_clean": false
+    },
+    {
+      "eid": "IToLEffocApL",
+      "title": "眼哥股市会 9.2日",
+      "date": "2025-09-02",
+      "regime": "R2",
+      "dur_sec": 1195,
+      "dur_min": 20,
+      "plays": 9307,
+      "has_clean": false
+    },
+    {
+      "eid": "rYaglFouovBI",
+      "title": "眼哥股市会 9.3日",
+      "date": "2025-09-03",
+      "regime": "R2",
+      "dur_sec": 1521,
+      "dur_min": 25,
+      "plays": 11000,
+      "has_clean": false
+    },
+    {
+      "eid": "tJspdQrERegV",
+      "title": "眼哥股市会 9.4日",
+      "date": "2025-09-04",
+      "regime": "R2",
+      "dur_sec": 1641,
+      "dur_min": 27,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "i9kkNYm8lg21",
+      "title": "眼哥股市会 9.5日",
+      "date": "2025-09-05",
+      "regime": "R2",
+      "dur_sec": 711,
+      "dur_min": 12,
+      "plays": 6547,
+      "has_clean": false
+    },
+    {
+      "eid": "0EPVksawweVh",
+      "title": "眼哥股市会 9月8日",
+      "date": "2025-09-08",
+      "regime": "R2",
+      "dur_sec": 1374,
+      "dur_min": 23,
+      "plays": 11000,
+      "has_clean": false
+    },
+    {
+      "eid": "oui1GHJXiLcD",
+      "title": "眼哥股市会 9月9日",
+      "date": "2025-09-09",
+      "regime": "R2",
+      "dur_sec": 1435,
+      "dur_min": 24,
+      "plays": 10000,
+      "has_clean": false
+    },
+    {
+      "eid": "qA1yDs3xQJqC",
+      "title": "眼哥股市会 9月10日",
+      "date": "2025-09-10",
+      "regime": "R2",
+      "dur_sec": 930,
+      "dur_min": 16,
+      "plays": 9990,
+      "has_clean": false
+    },
+    {
+      "eid": "aAYguwa9OSPa",
+      "title": "眼哥股市会 9月11日",
+      "date": "2025-09-11",
+      "regime": "R2",
+      "dur_sec": 1134,
+      "dur_min": 19,
+      "plays": 9831,
+      "has_clean": false
+    },
+    {
+      "eid": "ykSiD6powVS9",
+      "title": "眼哥股市会 9月12日",
+      "date": "2025-09-12",
+      "regime": "R2",
+      "dur_sec": 1229,
+      "dur_min": 20,
+      "plays": 8338,
+      "has_clean": false
+    },
+    {
+      "eid": "1lz0tKjjG01n",
+      "title": "眼哥股市会 9月15日",
+      "date": "2025-09-15",
+      "regime": "R2",
+      "dur_sec": 1918,
+      "dur_min": 32,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "QlF6Rg4VCOqB",
+      "title": "眼哥股市会 9月16日",
+      "date": "2025-09-16",
+      "regime": "R2",
+      "dur_sec": 1997,
+      "dur_min": 33,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "uYBnJaYRABJR",
+      "title": "眼哥股市会 9月17日",
+      "date": "2025-09-17",
+      "regime": "R2",
+      "dur_sec": 1191,
+      "dur_min": 20,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "h12n5YzrcADN",
+      "title": "眼哥股市会 9月18日",
+      "date": "2025-09-18",
+      "regime": "R2",
+      "dur_sec": 1479,
+      "dur_min": 25,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "RvWKLN5bqQeY",
+      "title": "眼哥股市会 9月19日",
+      "date": "2025-09-19",
+      "regime": "R2",
+      "dur_sec": 2133,
+      "dur_min": 36,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "MM299E7EyVwX",
+      "title": "眼哥股市会 9月22日",
+      "date": "2025-09-22",
+      "regime": "R2",
+      "dur_sec": 1970,
+      "dur_min": 33,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "UOVzuGdzs1dA",
+      "title": "眼哥股市会 9月23日",
+      "date": "2025-09-23",
+      "regime": "R2",
+      "dur_sec": 2234,
+      "dur_min": 37,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "ABda1hH9vwlj",
+      "title": "眼哥股市会 9月24日",
+      "date": "2025-09-24",
+      "regime": "R2",
+      "dur_sec": 1988,
+      "dur_min": 33,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "74HuvDWkyxHl",
+      "title": "眼哥股市会 9月25日",
+      "date": "2025-09-25",
+      "regime": "R2",
+      "dur_sec": 2231,
+      "dur_min": 37,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "fGlK0DWpk5AX",
+      "title": "眼哥股市会 9月26日",
+      "date": "2025-09-26",
+      "regime": "R2",
+      "dur_sec": 1460,
+      "dur_min": 24,
+      "plays": 12000,
+      "has_clean": false
+    },
+    {
+      "eid": "OovSNaybOMtk",
+      "title": "眼哥股市会 9月29日",
+      "date": "2025-09-29",
+      "regime": "R2",
+      "dur_sec": 2750,
+      "dur_min": 46,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "iYR05EoKLg4z",
+      "title": "眼哥股市会 10月9日",
+      "date": "2025-10-09",
+      "regime": "R2",
+      "dur_sec": 2228,
+      "dur_min": 37,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "tCYxWwC3EXZP",
+      "title": "眼哥股市会 10月10日",
+      "date": "2025-10-10",
+      "regime": "R2",
+      "dur_sec": 2265,
+      "dur_min": 38,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "iAfZRHAKxWGA",
+      "title": "眼哥股市会 10月13日",
+      "date": "2025-10-13",
+      "regime": "R2",
+      "dur_sec": 1472,
+      "dur_min": 25,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "S7uV2KBMb9O8",
+      "title": "眼哥股市会 10月14日",
+      "date": "2025-10-14",
+      "regime": "R2",
+      "dur_sec": 1134,
+      "dur_min": 19,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "ZnssKc2mYyPu",
+      "title": "眼哥股市会 10月15日",
+      "date": "2025-10-15",
+      "regime": "R2",
+      "dur_sec": 2572,
+      "dur_min": 43,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "bgvDxIwEJk6N",
+      "title": "眼哥股市会 10月16日",
+      "date": "2025-10-16",
+      "regime": "R2",
+      "dur_sec": 1812,
+      "dur_min": 30,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "b6jAQBwrpYZr",
+      "title": "眼哥股市会 10月20日",
+      "date": "2025-10-20",
+      "regime": "R2",
+      "dur_sec": 1771,
+      "dur_min": 30,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "whdD4kFP47CD",
+      "title": "眼哥股市会 10月21日",
+      "date": "2025-10-21",
+      "regime": "R2",
+      "dur_sec": 1985,
+      "dur_min": 33,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "Pi9Dl5FJ4bQY",
+      "title": "眼哥股市会 10月22日",
+      "date": "2025-10-22",
+      "regime": "R2",
+      "dur_sec": 1205,
+      "dur_min": 20,
+      "plays": 12000,
+      "has_clean": false
+    },
+    {
+      "eid": "slAPXx8GT3TB",
+      "title": "眼哥股市会 10月23日",
+      "date": "2025-10-23",
+      "regime": "R2",
+      "dur_sec": 1159,
+      "dur_min": 19,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "wcm72p8939F9",
+      "title": "眼哥股市会 10月24日",
+      "date": "2025-10-24",
+      "regime": "R2",
+      "dur_sec": 1342,
+      "dur_min": 22,
+      "plays": 10000,
+      "has_clean": false
+    },
+    {
+      "eid": "pMuBb3HUKYFz",
+      "title": "眼哥股市会 10月27日",
+      "date": "2025-10-27",
+      "regime": "R2",
+      "dur_sec": 1945,
+      "dur_min": 32,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "abm46pmZryXq",
+      "title": "眼哥股市会 10月28日",
+      "date": "2025-10-28",
+      "regime": "R2",
+      "dur_sec": 2325,
+      "dur_min": 39,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "jpAxZBuo6ChK",
+      "title": "眼哥股市会 10月29日",
+      "date": "2025-10-29",
+      "regime": "R2",
+      "dur_sec": 1891,
+      "dur_min": 32,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "ZoYtQ4GKJ1DD",
+      "title": "眼哥股市会 10月30日",
+      "date": "2025-10-30",
+      "regime": "R2",
+      "dur_sec": 2911,
+      "dur_min": 49,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "Cvom8EfsISFJ",
+      "title": "眼哥股市会 10月31日",
+      "date": "2025-10-31",
+      "regime": "R2",
+      "dur_sec": 2102,
+      "dur_min": 35,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "1YZw4jyZUWsP",
+      "title": "眼哥股市会 11月3日",
+      "date": "2025-11-03",
+      "regime": "R2",
+      "dur_sec": 2811,
+      "dur_min": 47,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "PdE18aqz9MRy",
+      "title": "眼哥股市会 11月4日",
+      "date": "2025-11-04",
+      "regime": "R2",
+      "dur_sec": 1727,
+      "dur_min": 29,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "KM3ZJUpdHYvG",
+      "title": "眼哥股市会 11月5日",
+      "date": "2025-11-05",
+      "regime": "R2",
+      "dur_sec": 2780,
+      "dur_min": 46,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "bZDfTn1CxJXC",
+      "title": "眼哥股市会 11月6日",
+      "date": "2025-11-06",
+      "regime": "R2",
+      "dur_sec": 2459,
+      "dur_min": 41,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "Iq9bE8gZf5w5",
+      "title": "眼哥股市会 11月7日",
+      "date": "2025-11-07",
+      "regime": "R2",
+      "dur_sec": 1751,
+      "dur_min": 29,
+      "plays": 12000,
+      "has_clean": false
+    },
+    {
+      "eid": "aBVFaDG1txAR",
+      "title": "眼哥股市会 11月10日",
+      "date": "2025-11-10",
+      "regime": "R2",
+      "dur_sec": 1801,
+      "dur_min": 30,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "0qs84nJwI1Zp",
+      "title": "眼哥股市会 11月11日",
+      "date": "2025-11-11",
+      "regime": "R2",
+      "dur_sec": 2276,
+      "dur_min": 38,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "uZjEcSywKAWw",
+      "title": "眼哥股市会 11月12日",
+      "date": "2025-11-12",
+      "regime": "R2",
+      "dur_sec": 3417,
+      "dur_min": 57,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "mu2ABkzaDsLD",
+      "title": "眼哥股市会 11月14日",
+      "date": "2025-11-14",
+      "regime": "R2",
+      "dur_sec": 2131,
+      "dur_min": 36,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "diO5auARxy9x",
+      "title": "眼哥股市会 11月17日",
+      "date": "2025-11-17",
+      "regime": "R2",
+      "dur_sec": 3027,
+      "dur_min": 50,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "vyA2yXJOy9WA",
+      "title": "眼哥股市会 11月18日",
+      "date": "2025-11-18",
+      "regime": "R2",
+      "dur_sec": 2389,
+      "dur_min": 40,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "ZTLhWWkAYNaJ",
+      "title": "眼哥股市会 11月19日",
+      "date": "2025-11-19",
+      "regime": "R2",
+      "dur_sec": 2191,
+      "dur_min": 37,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "YDgpKzsyFomc",
+      "title": "眼哥股市会 11月20日",
+      "date": "2025-11-20",
+      "regime": "R2",
+      "dur_sec": 2826,
+      "dur_min": 47,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "jQeYUawjTTKm",
+      "title": "眼哥股市会 11月21日",
+      "date": "2025-11-21",
+      "regime": "R2",
+      "dur_sec": 1648,
+      "dur_min": 27,
+      "plays": 12000,
+      "has_clean": false
+    },
+    {
+      "eid": "I4105Y8yqQCC",
+      "title": "眼哥股市会 11月24日",
+      "date": "2025-11-24",
+      "regime": "R2",
+      "dur_sec": 2630,
+      "dur_min": 44,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "XfiJjYrudHqI",
+      "title": "眼哥股市会 11月25日",
+      "date": "2025-11-25",
+      "regime": "R2",
+      "dur_sec": 2358,
+      "dur_min": 39,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "NuQ8FjqqZ8lO",
+      "title": "眼哥股市会 11月26日",
+      "date": "2025-11-26",
+      "regime": "R2",
+      "dur_sec": 974,
+      "dur_min": 16,
+      "plays": 10000,
+      "has_clean": false
+    },
+    {
+      "eid": "DlbaTcVluCBI",
+      "title": "眼哥股市会 11月27日",
+      "date": "2025-11-27",
+      "regime": "R2",
+      "dur_sec": 1833,
+      "dur_min": 31,
+      "plays": 11000,
+      "has_clean": false
+    },
+    {
+      "eid": "KM4osL45n5iw",
+      "title": "眼哥股市会 11月28日",
+      "date": "2025-11-28",
+      "regime": "R2",
+      "dur_sec": 1444,
+      "dur_min": 24,
+      "plays": 8951,
+      "has_clean": false
+    },
+    {
+      "eid": "IUwFNRaVbj5l",
+      "title": "眼哥股市会 12月1日",
+      "date": "2025-12-01",
+      "regime": "R2",
+      "dur_sec": 2272,
+      "dur_min": 38,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "qYxKRyPZNDB8",
+      "title": "眼哥股市会 12月2日",
+      "date": "2025-12-02",
+      "regime": "R2",
+      "dur_sec": 2443,
+      "dur_min": 41,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "yQjR1390iXK8",
+      "title": "眼哥股市会 12月3日",
+      "date": "2025-12-03",
+      "regime": "R2",
+      "dur_sec": 3055,
+      "dur_min": 51,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "krRYcX9zrBSn",
+      "title": "眼哥股市会 12月4日",
+      "date": "2025-12-04",
+      "regime": "R2",
+      "dur_sec": 1528,
+      "dur_min": 25,
+      "plays": 12000,
+      "has_clean": false
+    },
+    {
+      "eid": "UJYJ5ZnfBjiJ",
+      "title": "眼哥股市会 12月5日",
+      "date": "2025-12-05",
+      "regime": "R2",
+      "dur_sec": 1493,
+      "dur_min": 25,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "A6jPkRdPfPff",
+      "title": "眼哥股市会 12月8日",
+      "date": "2025-12-08",
+      "regime": "R2",
+      "dur_sec": 1776,
+      "dur_min": 30,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "BgtrFsWR1Gwo",
+      "title": "眼哥股市会 12月9日",
+      "date": "2025-12-09",
+      "regime": "R2",
+      "dur_sec": 2791,
+      "dur_min": 47,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "vmO1szZOcG4m",
+      "title": "眼哥股市会 12月10日",
+      "date": "2025-12-10",
+      "regime": "R2",
+      "dur_sec": 1688,
+      "dur_min": 28,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "CVG7ES4NDyqE",
+      "title": "眼哥股市会 12月11日",
+      "date": "2025-12-11",
+      "regime": "R2",
+      "dur_sec": 1638,
+      "dur_min": 27,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "OOVm1uV1G2R7",
+      "title": "眼哥股市会 12月12日",
+      "date": "2025-12-12",
+      "regime": "R2",
+      "dur_sec": 2724,
+      "dur_min": 45,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "SPeHhdVZTKUc",
+      "title": "眼哥股市会 12月15日",
+      "date": "2025-12-15",
+      "regime": "R2",
+      "dur_sec": 1161,
+      "dur_min": 19,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "ae4XOZxGVTOF",
+      "title": "眼哥股市会 12月16日",
+      "date": "2025-12-16",
+      "regime": "R2",
+      "dur_sec": 1535,
+      "dur_min": 26,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "JK1o0GE4JURD",
+      "title": "眼哥股市会 12月17日",
+      "date": "2025-12-17",
+      "regime": "R2",
+      "dur_sec": 2536,
+      "dur_min": 42,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "aXPG3R3xOTxh",
+      "title": "眼哥股市会 12月18日",
+      "date": "2025-12-18",
+      "regime": "R2",
+      "dur_sec": 1436,
+      "dur_min": 24,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "NMMooKRWL6J7",
+      "title": "眼哥股市会 12月19日",
+      "date": "2025-12-19",
+      "regime": "R2",
+      "dur_sec": 420,
+      "dur_min": 7,
+      "plays": 12000,
+      "has_clean": false
+    },
+    {
+      "eid": "WtqhPMUeFYRe",
+      "title": "眼哥股市会 12月22日",
+      "date": "2025-12-22",
+      "regime": "R2",
+      "dur_sec": 1660,
+      "dur_min": 28,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "Xp2jBtTUzB3n",
+      "title": "眼哥股市会 12月23日",
+      "date": "2025-12-23",
+      "regime": "R2",
+      "dur_sec": 1310,
+      "dur_min": 22,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "dY4iZDWaR6CK",
+      "title": "眼哥股市会 12月24日",
+      "date": "2025-12-24",
+      "regime": "R2",
+      "dur_sec": 1039,
+      "dur_min": 17,
+      "plays": 12000,
+      "has_clean": false
+    },
+    {
+      "eid": "hB6H4z8O58Gp",
+      "title": "眼哥股市会 12月25日",
+      "date": "2025-12-25",
+      "regime": "R2",
+      "dur_sec": 1163,
+      "dur_min": 19,
+      "plays": 12000,
+      "has_clean": false
+    },
+    {
+      "eid": "15oGyzneYKyx",
+      "title": "眼哥股市会 12月26日",
+      "date": "2025-12-26",
+      "regime": "R2",
+      "dur_sec": 670,
+      "dur_min": 11,
+      "plays": 10000,
+      "has_clean": false
+    },
+    {
+      "eid": "Mav2iNCNU7T9",
+      "title": "眼哥股市会 12月29日",
+      "date": "2025-12-29",
+      "regime": "R2",
+      "dur_sec": 1794,
+      "dur_min": 30,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "72cejNYY3Mjj",
+      "title": "眼哥股市会 12月30日",
+      "date": "2025-12-30",
+      "regime": "R2",
+      "dur_sec": 190,
+      "dur_min": 3,
+      "plays": 10000,
+      "has_clean": false
+    },
+    {
+      "eid": "M7oiHoGeiQGu",
+      "title": "眼哥股市会 1月4日",
+      "date": "2026-01-04",
+      "regime": "R3",
+      "dur_sec": 2615,
+      "dur_min": 44,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "aHoZ2Hqs97D2",
+      "title": "眼哥股市会 1月5日",
+      "date": "2026-01-05",
+      "regime": "R3",
+      "dur_sec": 1264,
+      "dur_min": 21,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "UQeTL1T8YizO",
+      "title": "眼哥故事故事 1月6日",
+      "date": "2026-01-06",
+      "regime": "R3",
+      "dur_sec": 839,
+      "dur_min": 14,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "fEqAsZo9kTdt",
+      "title": "眼哥股市会 1月7日",
+      "date": "2026-01-07",
+      "regime": "R3",
+      "dur_sec": 1532,
+      "dur_min": 26,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "Bbt9oSgiqj6s",
+      "title": "眼哥股市会 1月8日",
+      "date": "2026-01-08",
+      "regime": "R3",
+      "dur_sec": 829,
+      "dur_min": 14,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "FCDeORBbJ28N",
+      "title": "眼哥股市会 1月9日",
+      "date": "2026-01-09",
+      "regime": "R3",
+      "dur_sec": 2116,
+      "dur_min": 35,
+      "plays": 23000,
+      "has_clean": false
+    },
+    {
+      "eid": "QmMqeXKL2JUh",
+      "title": "眼哥股市会 1月12日",
+      "date": "2026-01-12",
+      "regime": "R3",
+      "dur_sec": 2950,
+      "dur_min": 49,
+      "plays": 29000,
+      "has_clean": false
+    },
+    {
+      "eid": "CSsTzYmopiwO",
+      "title": "眼哥股市会 1月13日",
+      "date": "2026-01-13",
+      "regime": "R3",
+      "dur_sec": 717,
+      "dur_min": 12,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "P3vuTSFLxKif",
+      "title": "眼哥股市会 1月14日",
+      "date": "2026-01-14",
+      "regime": "R3",
+      "dur_sec": 1270,
+      "dur_min": 21,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "xV2TyZjv4LpC",
+      "title": "眼哥股市会 1月15日",
+      "date": "2026-01-15",
+      "regime": "R3",
+      "dur_sec": 1630,
+      "dur_min": 27,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "lLp485fIXT8v",
+      "title": "眼哥股市会 1月16日",
+      "date": "2026-01-16",
+      "regime": "R3",
+      "dur_sec": 1080,
+      "dur_min": 18,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "wqUYpiOlib4F",
+      "title": "眼哥股市会 1月19日",
+      "date": "2026-01-19",
+      "regime": "R3",
+      "dur_sec": 1227,
+      "dur_min": 20,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "Tr82H1WT3Yt7",
+      "title": "眼哥股市会 1月20日",
+      "date": "2026-01-20",
+      "regime": "R3",
+      "dur_sec": 1439,
+      "dur_min": 24,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "uPH9Ypq8dJGA",
+      "title": "眼哥股市会 1月21日",
+      "date": "2026-01-21",
+      "regime": "R3",
+      "dur_sec": 1636,
+      "dur_min": 27,
+      "plays": 23000,
+      "has_clean": false
+    },
+    {
+      "eid": "bBew6j32enkM",
+      "title": "眼哥股市会 1月22日",
+      "date": "2026-01-22",
+      "regime": "R3",
+      "dur_sec": 750,
+      "dur_min": 12,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "9f0q7r8FBoBR",
+      "title": "眼哥股市会 1月23日",
+      "date": "2026-01-23",
+      "regime": "R3",
+      "dur_sec": 1122,
+      "dur_min": 19,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "FW8NPflTV7gt",
+      "title": "眼哥股市会 1月26日",
+      "date": "2026-01-26",
+      "regime": "R3",
+      "dur_sec": 1947,
+      "dur_min": 32,
+      "plays": 24000,
+      "has_clean": false
+    },
+    {
+      "eid": "y517EzmKG08D",
+      "title": "眼哥股市会 1月27日",
+      "date": "2026-01-27",
+      "regime": "R3",
+      "dur_sec": 2496,
+      "dur_min": 42,
+      "plays": 25000,
+      "has_clean": false
+    },
+    {
+      "eid": "gYk7Ep1TDnKQ",
+      "title": "眼哥股市会 1月28日",
+      "date": "2026-01-28",
+      "regime": "R3",
+      "dur_sec": 914,
+      "dur_min": 15,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "cqB1j9Sp7Tzr",
+      "title": "眼哥股市会 1月29日",
+      "date": "2026-01-29",
+      "regime": "R3",
+      "dur_sec": 1621,
+      "dur_min": 27,
+      "plays": 24000,
+      "has_clean": false
+    },
+    {
+      "eid": "SA25k6tyEzZL",
+      "title": "眼哥股市会 1月30日",
+      "date": "2026-01-30",
+      "regime": "R3",
+      "dur_sec": 184,
+      "dur_min": 3,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "kBL0VqFmuSmt",
+      "title": "1月30日 中午加更",
+      "date": "2026-01-30",
+      "regime": "R3",
+      "dur_sec": 701,
+      "dur_min": 12,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "1eNy3ptKlHKy",
+      "title": "眼哥故事故事 2月2日",
+      "date": "2026-02-02",
+      "regime": "R3",
+      "dur_sec": 2218,
+      "dur_min": 37,
+      "plays": 27000,
+      "has_clean": false
+    },
+    {
+      "eid": "VMgRZFXRdEW6",
+      "title": "眼哥股市会 2月3日",
+      "date": "2026-02-03",
+      "regime": "R3",
+      "dur_sec": 1875,
+      "dur_min": 31,
+      "plays": 25000,
+      "has_clean": false
+    },
+    {
+      "eid": "CmOPYjGnwxPc",
+      "title": "眼哥股市会 2月4日",
+      "date": "2026-02-04",
+      "regime": "R3",
+      "dur_sec": 245,
+      "dur_min": 4,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "XpSrXLKoIOel",
+      "title": "眼哥股市会 2月5日",
+      "date": "2026-02-05",
+      "regime": "R3",
+      "dur_sec": 1934,
+      "dur_min": 32,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "ViCz6xj7wz45",
+      "title": "眼哥股市会 2月6日",
+      "date": "2026-02-06",
+      "regime": "R3",
+      "dur_sec": 1253,
+      "dur_min": 21,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "9mQOzOkLnXTo",
+      "title": "眼哥股市会 2月9日",
+      "date": "2026-02-09",
+      "regime": "R3",
+      "dur_sec": 664,
+      "dur_min": 11,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "qQh7p7ONKvNK",
+      "title": "眼哥股市会 2月10日",
+      "date": "2026-02-10",
+      "regime": "R3",
+      "dur_sec": 881,
+      "dur_min": 15,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "aTy100f48RlS",
+      "title": "眼哥股市会 2月24日",
+      "date": "2026-02-24",
+      "regime": "R3",
+      "dur_sec": 1685,
+      "dur_min": 28,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "KeTnhYpS5y8l",
+      "title": "眼哥股市会 2月25日",
+      "date": "2026-02-25",
+      "regime": "R3",
+      "dur_sec": 2225,
+      "dur_min": 37,
+      "plays": 23000,
+      "has_clean": false
+    },
+    {
+      "eid": "bGDgBMp28uAx",
+      "title": "眼哥股市会 2月26日",
+      "date": "2026-02-26",
+      "regime": "R3",
+      "dur_sec": 1877,
+      "dur_min": 31,
+      "plays": 23000,
+      "has_clean": false
+    },
+    {
+      "eid": "AyM2uZ5EDVWJ",
+      "title": "眼哥股市会 2月27日",
+      "date": "2026-02-27",
+      "regime": "R3",
+      "dur_sec": 2034,
+      "dur_min": 34,
+      "plays": 25000,
+      "has_clean": false
+    },
+    {
+      "eid": "ZYxrBXhE6PQq",
+      "title": "眼哥股市会 3月3日",
+      "date": "2026-03-03",
+      "regime": "R4",
+      "dur_sec": 1033,
+      "dur_min": 17,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "eSytT35kvt3w",
+      "title": "眼哥股市会 3月4日",
+      "date": "2026-03-04",
+      "regime": "R4",
+      "dur_sec": 668,
+      "dur_min": 11,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "tP052xOUXiG5",
+      "title": "眼哥股市会 3月5日",
+      "date": "2026-03-05",
+      "regime": "R4",
+      "dur_sec": 875,
+      "dur_min": 15,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "Ovwhrdshs7WS",
+      "title": "眼哥股市会 3月6日",
+      "date": "2026-03-06",
+      "regime": "R4",
+      "dur_sec": 1438,
+      "dur_min": 24,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "WVnXrlSYX7rL",
+      "title": "眼哥股市会 3月9日",
+      "date": "2026-03-09",
+      "regime": "R4",
+      "dur_sec": 1469,
+      "dur_min": 24,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "W590HQSZcoQt",
+      "title": "眼哥股市会 3月10日",
+      "date": "2026-03-10",
+      "regime": "R4",
+      "dur_sec": 2002,
+      "dur_min": 33,
+      "plays": 24000,
+      "has_clean": false
+    },
+    {
+      "eid": "EnX7i1vSyP5H",
+      "title": "眼哥股市会 3月11日",
+      "date": "2026-03-11",
+      "regime": "R4",
+      "dur_sec": 2162,
+      "dur_min": 36,
+      "plays": 24000,
+      "has_clean": false
+    },
+    {
+      "eid": "CWc5zLOgV2zr",
+      "title": "眼哥股市会 3月12日",
+      "date": "2026-03-12",
+      "regime": "R4",
+      "dur_sec": 699,
+      "dur_min": 12,
+      "plays": 23000,
+      "has_clean": false
+    },
+    {
+      "eid": "SRxLITdtCGPG",
+      "title": "眼哥股市会 3月16日",
+      "date": "2026-03-16",
+      "regime": "R4",
+      "dur_sec": 1680,
+      "dur_min": 28,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "RnqxhiBWySJw",
+      "title": "眼哥股市会 3月17日",
+      "date": "2026-03-17",
+      "regime": "R4",
+      "dur_sec": 1548,
+      "dur_min": 26,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "t7DA5HPTXQEw",
+      "title": "眼哥股市会 3月18日",
+      "date": "2026-03-18",
+      "regime": "R4",
+      "dur_sec": 1328,
+      "dur_min": 22,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "NAScQkpLEuih",
+      "title": "眼哥股市会 3月19日",
+      "date": "2026-03-19",
+      "regime": "R4",
+      "dur_sec": 1857,
+      "dur_min": 31,
+      "plays": 24000,
+      "has_clean": false
+    },
+    {
+      "eid": "1YcrDEf5GJAB",
+      "title": "眼哥股市会 3月20日",
+      "date": "2026-03-20",
+      "regime": "R4",
+      "dur_sec": 733,
+      "dur_min": 12,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "LZYaoVM6eRbf",
+      "title": "眼哥股市会 3月23日",
+      "date": "2026-03-23",
+      "regime": "R4",
+      "dur_sec": 1565,
+      "dur_min": 26,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "0d3iiV9kzvlO",
+      "title": "眼哥股市会 3月24日",
+      "date": "2026-03-24",
+      "regime": "R4",
+      "dur_sec": 705,
+      "dur_min": 12,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "pnj9lIxBk2dG",
+      "title": "眼哥股市会 3月25日",
+      "date": "2026-03-25",
+      "regime": "R4",
+      "dur_sec": 2082,
+      "dur_min": 35,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "ZCI83GD81iH7",
+      "title": "眼哥股市会 3月26日",
+      "date": "2026-03-26",
+      "regime": "R4",
+      "dur_sec": 1347,
+      "dur_min": 22,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "9irsiNse96VR",
+      "title": "眼哥股市会 3月27日",
+      "date": "2026-03-27",
+      "regime": "R4",
+      "dur_sec": 1622,
+      "dur_min": 27,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "oKJdizDI5kX5",
+      "title": "眼哥股市会 3月30日",
+      "date": "2026-03-30",
+      "regime": "R4",
+      "dur_sec": 2049,
+      "dur_min": 34,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "KnOQM8JjSKll",
+      "title": "眼哥股市会 3月31日",
+      "date": "2026-03-31",
+      "regime": "R4",
+      "dur_sec": 1582,
+      "dur_min": 26,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "FZVJWDHgwVYq",
+      "title": "眼哥股市会 4月1日",
+      "date": "2026-04-01",
+      "regime": "R5",
+      "dur_sec": 589,
+      "dur_min": 10,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "itHq7jGk3S9h",
+      "title": "眼哥股市会 4月2日",
+      "date": "2026-04-02",
+      "regime": "R5",
+      "dur_sec": 1166,
+      "dur_min": 19,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "fU8azBh9HZEr",
+      "title": "眼哥股市会 4月3日",
+      "date": "2026-04-03",
+      "regime": "R5",
+      "dur_sec": 785,
+      "dur_min": 13,
+      "plays": 12000,
+      "has_clean": false
+    },
+    {
+      "eid": "ihhUTJ0UvsVe",
+      "title": "眼哥股市会 4月6日",
+      "date": "2026-04-06",
+      "regime": "R5",
+      "dur_sec": 2649,
+      "dur_min": 44,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "FaUE4jVvvuMK",
+      "title": "眼哥股市会 4月7日",
+      "date": "2026-04-07",
+      "regime": "R5",
+      "dur_sec": 742,
+      "dur_min": 12,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "7ccB6AqCV1lh",
+      "title": "眼哥股市会 4月8日",
+      "date": "2026-04-08",
+      "regime": "R5",
+      "dur_sec": 922,
+      "dur_min": 15,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "nLNkkPXXG3vx",
+      "title": "眼哥股市会 4月9日",
+      "date": "2026-04-09",
+      "regime": "R5",
+      "dur_sec": 898,
+      "dur_min": 15,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "pK2VnUQcHIX3",
+      "title": "眼哥股市会 4月10日",
+      "date": "2026-04-10",
+      "regime": "R5",
+      "dur_sec": 670,
+      "dur_min": 11,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "2hMmC3yERib0",
+      "title": "眼哥股市会 4月13日",
+      "date": "2026-04-13",
+      "regime": "R5",
+      "dur_sec": 622,
+      "dur_min": 10,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "vZjM2xSJ1HRB",
+      "title": "眼哥股市会 4月14日",
+      "date": "2026-04-14",
+      "regime": "R5",
+      "dur_sec": 1701,
+      "dur_min": 28,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "pbbvnJZ1AxAC",
+      "title": "眼哥股市会 4月15日",
+      "date": "2026-04-15",
+      "regime": "R5",
+      "dur_sec": 261,
+      "dur_min": 4,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "iGogSss1W1ik",
+      "title": "眼哥股市会 4月20日",
+      "date": "2026-04-20",
+      "regime": "R5",
+      "dur_sec": 791,
+      "dur_min": 13,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "EO9hAdb4pbBK",
+      "title": "眼哥股市会 4月21日",
+      "date": "2026-04-21",
+      "regime": "R5",
+      "dur_sec": 790,
+      "dur_min": 13,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "iU2T9rTmHLbS",
+      "title": "眼哥股市会 4月22日",
+      "date": "2026-04-22",
+      "regime": "R5",
+      "dur_sec": 1120,
+      "dur_min": 19,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "AjthiaVvwqni",
+      "title": "眼哥股市会 4月23日",
+      "date": "2026-04-23",
+      "regime": "R5",
+      "dur_sec": 647,
+      "dur_min": 11,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "KNFO9YnBkzJe",
+      "title": "眼哥故事会 4月24日",
+      "date": "2026-04-24",
+      "regime": "R5",
+      "dur_sec": 688,
+      "dur_min": 11,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "cgwn6GXNx29u",
+      "title": "眼哥故事会 4月27日",
+      "date": "2026-04-27",
+      "regime": "R5",
+      "dur_sec": 1038,
+      "dur_min": 17,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "gxBEYEwN0JVe",
+      "title": "眼哥股市会 4月28日",
+      "date": "2026-04-28",
+      "regime": "R5",
+      "dur_sec": 1364,
+      "dur_min": 23,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "XNfYcuNRQabS",
+      "title": "眼哥股市会 4月29日",
+      "date": "2026-04-29",
+      "regime": "R5",
+      "dur_sec": 1019,
+      "dur_min": 17,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "XMQBaYFiwGhJ",
+      "title": "眼哥股市会 5月6日",
+      "date": "2026-05-06",
+      "regime": "R6",
+      "dur_sec": 1885,
+      "dur_min": 31,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "LbbwUmZKrY2b",
+      "title": "眼哥股市会 5月7日",
+      "date": "2026-05-07",
+      "regime": "R6",
+      "dur_sec": 1336,
+      "dur_min": 22,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "jGSCl1RixEIp",
+      "title": "眼哥股市会 5月11日",
+      "date": "2026-05-11",
+      "regime": "R6",
+      "dur_sec": 467,
+      "dur_min": 8,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "6xOsRJZpqc3G",
+      "title": "眼哥股市会 5月12日",
+      "date": "2026-05-12",
+      "regime": "R6",
+      "dur_sec": 1019,
+      "dur_min": 17,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "8bzk6gJCv2vA",
+      "title": "眼哥股市会 5月13日",
+      "date": "2026-05-13",
+      "regime": "R6",
+      "dur_sec": 515,
+      "dur_min": 9,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "TX7z46jlfqOR",
+      "title": "眼哥股市会 5月14日",
+      "date": "2026-05-14",
+      "regime": "R6",
+      "dur_sec": 847,
+      "dur_min": 14,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "pMOa8NcKv0q1",
+      "title": "眼哥股市会 5月15日",
+      "date": "2026-05-15",
+      "regime": "R6",
+      "dur_sec": 852,
+      "dur_min": 14,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "xXbq00mp4j8C",
+      "title": "眼哥股市会 5月18日",
+      "date": "2026-05-18",
+      "regime": "R6",
+      "dur_sec": 1049,
+      "dur_min": 17,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "NNUnYllUlAp6",
+      "title": "眼哥股市会 5月19日",
+      "date": "2026-05-19",
+      "regime": "R6",
+      "dur_sec": 912,
+      "dur_min": 15,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "BtPA92vGc0a7",
+      "title": "眼哥股市会 5月20日",
+      "date": "2026-05-20",
+      "regime": "R6",
+      "dur_sec": 1189,
+      "dur_min": 20,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "pHqCUH0xfw4k",
+      "title": "眼哥股市会 5月21日",
+      "date": "2026-05-21",
+      "regime": "R6",
+      "dur_sec": 1276,
+      "dur_min": 21,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "2uSfe6rmaOth",
+      "title": "眼哥股市会 5月22日",
+      "date": "2026-05-22",
+      "regime": "R6",
+      "dur_sec": 907,
+      "dur_min": 15,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "zhmwi6TRXyB6",
+      "title": "眼哥股市会 5月25日",
+      "date": "2026-05-25",
+      "regime": "R6",
+      "dur_sec": 345,
+      "dur_min": 6,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "QoIXT6QLCQqV",
+      "title": "眼哥股市会 5月26日",
+      "date": "2026-05-26",
+      "regime": "R6",
+      "dur_sec": 951,
+      "dur_min": 16,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "1wMr7NAIV9Ul",
+      "title": "眼哥股市会 5月27日",
+      "date": "2026-05-27",
+      "regime": "R6",
+      "dur_sec": 1277,
+      "dur_min": 21,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "BGcvb3tnCPyA",
+      "title": "眼哥股市会 5月28日",
+      "date": "2026-05-28",
+      "regime": "R6",
+      "dur_sec": 963,
+      "dur_min": 16,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "TafVo2NXcESC",
+      "title": "眼哥股市会 5月29日",
+      "date": "2026-05-29",
+      "regime": "R6",
+      "dur_sec": 1114,
+      "dur_min": 19,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "JSz55EIjFdLI",
+      "title": "眼哥股市会 6月1日",
+      "date": "2026-06-01",
+      "regime": "R6",
+      "dur_sec": 1798,
+      "dur_min": 30,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "fQU30PJEeawk",
+      "title": "眼哥股市会 6月2日",
+      "date": "2026-06-02",
+      "regime": "R6",
+      "dur_sec": 1130,
+      "dur_min": 19,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "5JZ1qQzAycHQ",
+      "title": "6月3日 加更",
+      "date": "2026-06-03",
+      "regime": "R6",
+      "dur_sec": 558,
+      "dur_min": 9,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "XSeTmVJHIvwk",
+      "title": "眼哥股市会 6月3日",
+      "date": "2026-06-03",
+      "regime": "R6",
+      "dur_sec": 1039,
+      "dur_min": 17,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "hJROQgpYXpbL",
+      "title": "眼哥股市会 6月4日",
+      "date": "2026-06-04",
+      "regime": "R6",
+      "dur_sec": 1255,
+      "dur_min": 21,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "LdIGRJYnZx3l",
+      "title": "眼哥股市会 6月8日",
+      "date": "2026-06-08",
+      "regime": "R6",
+      "dur_sec": 764,
+      "dur_min": 13,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "OstAnOQsNeNd",
+      "title": "眼哥股市会 6月9日",
+      "date": "2026-06-09",
+      "regime": "R6",
+      "dur_sec": 1030,
+      "dur_min": 17,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "1rrjrIWjs12D",
+      "title": "眼哥股市会 6月10日",
+      "date": "2026-06-10",
+      "regime": "R6",
+      "dur_sec": 892,
+      "dur_min": 15,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "GNTsKGypN4n9",
+      "title": "眼哥股市会 6月11日",
+      "date": "2026-06-11",
+      "regime": "R6",
+      "dur_sec": 939,
+      "dur_min": 16,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "ITQ5gXIUXxq5",
+      "title": "眼哥股市会 6月12日",
+      "date": "2026-06-12",
+      "regime": "R6",
+      "dur_sec": 667,
+      "dur_min": 11,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "QKWuyjcsEoQ7",
+      "title": "眼哥股市会 6月15日",
+      "date": "2026-06-15",
+      "regime": "R6",
+      "dur_sec": 1085,
+      "dur_min": 18,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "AAKQxsanBfpU",
+      "title": "眼哥股市会 6月16日",
+      "date": "2026-06-16",
+      "regime": "R6",
+      "dur_sec": 998,
+      "dur_min": 17,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "w2QKDtWiQ9lg",
+      "title": "眼哥股市会 6月17日",
+      "date": "2026-06-17",
+      "regime": "R6",
+      "dur_sec": 888,
+      "dur_min": 15,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "DQDbVB8xjoON",
+      "title": "眼哥股市会 6月18日",
+      "date": "2026-06-18",
+      "regime": "R6",
+      "dur_sec": 1026,
+      "dur_min": 17,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "NlMwypMihiFF",
+      "title": "眼哥股市会 6月22日",
+      "date": "2026-06-22",
+      "regime": "R6",
+      "dur_sec": 1073,
+      "dur_min": 18,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "MbRHxIMVbgFf",
+      "title": "眼哥股市会 6月23日",
+      "date": "2026-06-23",
+      "regime": "R6",
+      "dur_sec": 865,
+      "dur_min": 14,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "2QRV2YDz4GL7",
+      "title": "眼哥股市会 6月24日",
+      "date": "2026-06-24",
+      "regime": "R6",
+      "dur_sec": 699,
+      "dur_min": 12,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "rbxEEArjlFZN",
+      "title": "眼哥股市会 6月25日",
+      "date": "2026-06-25",
+      "regime": "R6",
+      "dur_sec": 987,
+      "dur_min": 16,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "9xfMeqgX8rPC",
+      "title": "眼哥股市会 6月26日",
+      "date": "2026-06-26",
+      "regime": "R6",
+      "dur_sec": 589,
+      "dur_min": 10,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "5srG2kvmQsor",
+      "title": "眼哥股市会 6月29日",
+      "date": "2026-06-29",
+      "regime": "R6",
+      "dur_sec": 959,
+      "dur_min": 16,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "33NFJvAyhTQ4",
+      "title": "眼哥股市会 6月30日",
+      "date": "2026-06-30",
+      "regime": "R6",
+      "dur_sec": 1681,
+      "dur_min": 28,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "jeRvZ2t777H7",
+      "title": "眼哥股市会 7月1日",
+      "date": "2026-07-01",
+      "regime": "R6",
+      "dur_sec": 1149,
+      "dur_min": 19,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "nDGdB5ag5rzy",
+      "title": "眼哥股市会 7月2日",
+      "date": "2026-07-02",
+      "regime": "R6",
+      "dur_sec": 954,
+      "dur_min": 16,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "uLQajekvrbth",
+      "title": "眼哥股市会 7月3日",
+      "date": "2026-07-03",
+      "regime": "R6",
+      "dur_sec": 466,
+      "dur_min": 8,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "A4U3ckfc7pDN",
+      "title": "眼哥股市会 7月6日",
+      "date": "2026-07-06",
+      "regime": "R6",
+      "dur_sec": 1530,
+      "dur_min": 26,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "RllLVP6bWw9l",
+      "title": "眼哥股市会 7月7日",
+      "date": "2026-07-07",
+      "regime": "R6",
+      "dur_sec": 543,
+      "dur_min": 9,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "cc9knYvhJib8",
+      "title": "眼哥股市会 7月8日",
+      "date": "2026-07-08",
+      "regime": "R6",
+      "dur_sec": 1037,
+      "dur_min": 17,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "jTiNZXozECjL",
+      "title": "眼哥股市会 7月9日",
+      "date": "2026-07-09",
+      "regime": "R6",
+      "dur_sec": 817,
+      "dur_min": 14,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "O90MLReo2deh",
+      "title": "眼哥股市会 7月10日",
+      "date": "2026-07-10",
+      "regime": "R6",
+      "dur_sec": 1131,
+      "dur_min": 19,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "iTDIcIw8PosX",
+      "title": "眼哥股市会 7月13日",
+      "date": "2026-07-13",
+      "regime": "R6",
+      "dur_sec": 1212,
+      "dur_min": 20,
+      "plays": 23000,
+      "has_clean": false
+    },
+    {
+      "eid": "PFki292dvJp0",
+      "title": "眼哥股市会 7月14日",
+      "date": "2026-07-14",
+      "regime": "R6",
+      "dur_sec": 761,
+      "dur_min": 13,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "PVV9XEGAyApz",
+      "title": "眼哥股市会 7月15日",
+      "date": "2026-07-15",
+      "regime": "R6",
+      "dur_sec": 842,
+      "dur_min": 14,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "WxVFY0LBE57h",
+      "title": "眼哥股市会 7月16日",
+      "date": "2026-07-16",
+      "regime": "R6",
+      "dur_sec": 2019,
+      "dur_min": 34,
+      "plays": 31000,
+      "has_clean": false
+    },
+    {
+      "eid": "qzt8FLt5wjZc",
+      "title": "7月17日直播内容",
+      "date": "2026-07-17",
+      "regime": "R6",
+      "dur_sec": 5238,
+      "dur_min": 87,
+      "plays": 29000,
+      "has_clean": false
+    },
+    {
+      "eid": "GjF5Sg7M5Tjc",
+      "title": "眼哥股市会 7月20日",
+      "date": "2026-07-20",
+      "regime": "R6",
+      "dur_sec": 932,
+      "dur_min": 16,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "uzmzekYhZ8E9",
+      "title": "眼哥股市会 7月21日",
+      "date": "2026-07-21",
+      "regime": "R6",
+      "dur_sec": 1538,
+      "dur_min": 26,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "jITv9Taya2Uz",
+      "title": "眼哥股市会 7月22日",
+      "date": "2026-07-22",
+      "regime": "R6",
+      "dur_sec": 1125,
+      "dur_min": 19,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "gQFkhdb5dHDh",
+      "title": "眼哥股市会 7月23日",
+      "date": "2026-07-23",
+      "regime": "R6",
+      "dur_sec": 520,
+      "dur_min": 9,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "eFKvMV3WzgMW",
+      "title": "眼哥股市会 7月24日",
+      "date": "2026-07-24",
+      "regime": "R6",
+      "dur_sec": 558,
+      "dur_min": 9,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "VPghlMFJhYQZ",
+      "title": "眼哥股市会 7月27日",
+      "date": "2026-07-27",
+      "regime": "R6",
+      "dur_sec": 636,
+      "dur_min": 11,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "e8m2pJVVztyy",
+      "title": "眼哥股市会 7月28日",
+      "date": "2026-07-28",
+      "regime": "R6",
+      "dur_sec": 633,
+      "dur_min": 11,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "EoVmhHPVzEEs",
+      "title": "眼哥股市会 7月29日",
+      "date": "2026-07-29",
+      "regime": "R6",
+      "dur_sec": 998,
+      "dur_min": 17,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "yvJ0wJy59MEn",
+      "title": "眼哥股市会 7月30日",
+      "date": "2026-07-30",
+      "regime": "R6",
+      "dur_sec": 1245,
+      "dur_min": 21,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "KMky8ahooSIv",
+      "title": "眼哥股市会 8月3日",
+      "date": "2026-08-03",
+      "regime": "R7",
+      "dur_sec": 2455,
+      "dur_min": 41,
+      "plays": 30000,
+      "has_clean": false
+    },
+    {
+      "eid": "w9qqCcBhYYNr",
+      "title": "眼哥股市会 8月4日",
+      "date": "2026-08-04",
+      "regime": "R7",
+      "dur_sec": 1039,
+      "dur_min": 17,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "yhGjCYbG39pi",
+      "title": "眼哥股市会 8月5日",
+      "date": "2026-08-05",
+      "regime": "R7",
+      "dur_sec": 1031,
+      "dur_min": 17,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "m9H1Qfj7eYt6",
+      "title": "眼哥股市会 8月6日",
+      "date": "2026-08-06",
+      "regime": "R7",
+      "dur_sec": 1127,
+      "dur_min": 19,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "f6aDraeSkT6d",
+      "title": "眼哥股市会 8月7日",
+      "date": "2026-08-07",
+      "regime": "R7",
+      "dur_sec": 676,
+      "dur_min": 11,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "ACNMD6Qa6pB0",
+      "title": "眼哥股市会 8月10日",
+      "date": "2026-08-10",
+      "regime": "R7",
+      "dur_sec": 956,
+      "dur_min": 16,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "zIxIVMOtsonF",
+      "title": "眼哥股市会 8月11日",
+      "date": "2026-08-11",
+      "regime": "R7",
+      "dur_sec": 870,
+      "dur_min": 14,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "A8RQb9NRe5Zs",
+      "title": "眼哥股市会 8月12日",
+      "date": "2026-08-12",
+      "regime": "R7",
+      "dur_sec": 1246,
+      "dur_min": 21,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "SvdasK6Js2pM",
+      "title": "眼哥股市会 8月13日",
+      "date": "2026-08-13",
+      "regime": "R7",
+      "dur_sec": 931,
+      "dur_min": 16,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "dNJImmjd5xhZ",
+      "title": "眼哥股市会 8月17日",
+      "date": "2026-08-17",
+      "regime": "R7",
+      "dur_sec": 1145,
+      "dur_min": 19,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "Nl50QxEvqk50",
+      "title": "眼哥股市会 8月18日",
+      "date": "2026-08-18",
+      "regime": "R7",
+      "dur_sec": 1289,
+      "dur_min": 21,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "ynUlHz30XZDt",
+      "title": "眼哥股市会 8月19日",
+      "date": "2026-08-19",
+      "regime": "R7",
+      "dur_sec": 543,
+      "dur_min": 9,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "8USpNe98JTFa",
+      "title": "眼哥股市会 8月20日",
+      "date": "2026-08-20",
+      "regime": "R7",
+      "dur_sec": 1412,
+      "dur_min": 24,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "11cPI5JRUXGk",
+      "title": "眼哥股市会 8月21日",
+      "date": "2026-08-21",
+      "regime": "R7",
+      "dur_sec": 656,
+      "dur_min": 11,
+      "plays": 18000,
+      "has_clean": false
+    },
+    {
+      "eid": "3Bo6JpZ2mKkQ",
+      "title": "眼哥股市会 8月24日",
+      "date": "2026-08-24",
+      "regime": "R7",
+      "dur_sec": 1204,
+      "dur_min": 20,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "HgYgVemD3CJx",
+      "title": "眼哥股市会 8月25日",
+      "date": "2026-08-25",
+      "regime": "R7",
+      "dur_sec": 958,
+      "dur_min": 16,
+      "plays": 22000,
+      "has_clean": false
+    },
+    {
+      "eid": "9tOmwNQsK2At",
+      "title": "眼哥股市会 8月27日",
+      "date": "2026-08-27",
+      "regime": "R7",
+      "dur_sec": 766,
+      "dur_min": 13,
+      "plays": 19000,
+      "has_clean": false
+    },
+    {
+      "eid": "RJ0M2Iit01Gi",
+      "title": "眼哥股市会 8月31日",
+      "date": "2026-08-31",
+      "regime": "R7",
+      "dur_sec": 1510,
+      "dur_min": 25,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "EBGAFt3fEkUm",
+      "title": "眼哥股市会 9月1日",
+      "date": "2026-09-01",
+      "regime": "R8",
+      "dur_sec": 527,
+      "dur_min": 9,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "fgco6bJuQVa4",
+      "title": "眼哥股市会 9月2日",
+      "date": "2026-09-02",
+      "regime": "R8",
+      "dur_sec": 776,
+      "dur_min": 13,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "j7GD74bQUYNW",
+      "title": "眼哥股市会 9月3日",
+      "date": "2026-09-03",
+      "regime": "R8",
+      "dur_sec": 887,
+      "dur_min": 15,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "DolhH1uCRZnX",
+      "title": "眼哥股市会 9月4日",
+      "date": "2026-09-04",
+      "regime": "R8",
+      "dur_sec": 564,
+      "dur_min": 9,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "sbg2u1Kfg6c4",
+      "title": "眼哥股市会 9月7日",
+      "date": "2026-09-07",
+      "regime": "R8",
+      "dur_sec": 1429,
+      "dur_min": 24,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "rPLCQTL67pXD",
+      "title": "眼哥股市会 9月8日",
+      "date": "2026-09-08",
+      "regime": "R8",
+      "dur_sec": 1098,
+      "dur_min": 18,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "muwWohh1ivxr",
+      "title": "眼哥股市会 9月9日",
+      "date": "2026-09-09",
+      "regime": "R8",
+      "dur_sec": 815,
+      "dur_min": 14,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "9BJToFj5QFAr",
+      "title": "眼哥股市会 9月10日",
+      "date": "2026-09-10",
+      "regime": "R8",
+      "dur_sec": 1302,
+      "dur_min": 22,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "8QvSMgmsbMc6",
+      "title": "眼哥股市会 9月11日",
+      "date": "2026-09-11",
+      "regime": "R8",
+      "dur_sec": 1133,
+      "dur_min": 19,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "fTruVao3FrqS",
+      "title": "眼哥股市会 9月14日",
+      "date": "2026-09-14",
+      "regime": "R8",
+      "dur_sec": 1484,
+      "dur_min": 25,
+      "plays": 20000,
+      "has_clean": false
+    },
+    {
+      "eid": "09rltH4Vz9tB",
+      "title": "眼哥股市会 9月15日",
+      "date": "2026-09-15",
+      "regime": "R8",
+      "dur_sec": 521,
+      "dur_min": 9,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "3AZ5LfkpWNtL",
+      "title": "眼哥股市会 9月16日",
+      "date": "2026-09-16",
+      "regime": "R8",
+      "dur_sec": 804,
+      "dur_min": 13,
+      "plays": 17000,
+      "has_clean": false
+    },
+    {
+      "eid": "Tv4U4LLzEID4",
+      "title": "眼哥股市会 9月17日",
+      "date": "2026-09-17",
+      "regime": "R8",
+      "dur_sec": 947,
+      "dur_min": 16,
+      "plays": 23000,
+      "has_clean": false
+    },
+    {
+      "eid": "Ceok57BAm89N",
+      "title": "眼哥股市会 26.9.18",
+      "date": "2026-09-18",
+      "regime": "R8",
+      "dur_sec": 806,
+      "dur_min": 13,
+      "plays": 21000,
+      "has_clean": false
+    },
+    {
+      "eid": "uoZOErokuN5G",
+      "title": "眼哥股市会 26.9.21",
+      "date": "2026-09-21",
+      "regime": "R8",
+      "dur_sec": 686,
+      "dur_min": 11,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "H3zIVARn1Q4L",
+      "title": "眼哥股市会 26.9.22",
+      "date": "2026-09-22",
+      "regime": "R8",
+      "dur_sec": 856,
+      "dur_min": 14,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "7EJRCijqCbBT",
+      "title": "眼哥股市会 26.9.23",
+      "date": "2026-09-23",
+      "regime": "R8",
+      "dur_sec": 1169,
+      "dur_min": 19,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "imL4xnYZcj9c",
+      "title": "眼哥股市会 26.9.24",
+      "date": "2026-09-24",
+      "regime": "R8",
+      "dur_sec": 969,
+      "dur_min": 16,
+      "plays": 14000,
+      "has_clean": false
+    },
+    {
+      "eid": "su3bf5QxPJos",
+      "title": "眼哥股市会 26.9.28",
+      "date": "2026-09-28",
+      "regime": "R8",
+      "dur_sec": 1292,
+      "dur_min": 22,
+      "plays": 16000,
+      "has_clean": false
+    },
+    {
+      "eid": "m9IkgRfLpu1B",
+      "title": "眼哥股市会 26.9.29",
+      "date": "2026-09-29",
+      "regime": "R8",
+      "dur_sec": 1530,
+      "dur_min": 26,
+      "plays": 15000,
+      "has_clean": false
+    },
+    {
+      "eid": "8fSXkVmh5tGA",
+      "title": "眼哥股市会 26.9.30",
+      "date": "2026-09-30",
+      "regime": "R8",
+      "dur_sec": 1027,
+      "dur_min": 17,
+      "plays": 13000,
+      "has_clean": false
+    },
+    {
+      "eid": "6ac747abe742e36efcbfbc11",
+      "title": "眼保健操开始啦",
+      "date": "2026-10-08",
+      "regime": "R8",
+      "dur_sec": 1456,
+      "dur_min": 24,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6ac7104ee742e36efcbf9b01",
+      "title": "眼哥股市会 26.10.8",
+      "date": "2026-10-08",
+      "regime": "R8",
+      "dur_sec": 1684,
+      "dur_min": 28,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6ac8562ae742e36efcc02088",
+      "title": "眼哥股市会 26.10.9",
+      "date": "2026-10-09",
+      "regime": "R8",
+      "dur_sec": 1118,
+      "dur_min": 19,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6acc929d195d838e2af0a0c6",
+      "title": "按摩一下 按摩按摩",
+      "date": "2026-10-12",
+      "regime": "R8",
+      "dur_sec": 2022,
+      "dur_min": 34,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6acc5454195d838e2af0788d",
+      "title": "眼哥股市会  26.10.12",
+      "date": "2026-10-12",
+      "regime": "R8",
+      "dur_sec": 1107,
+      "dur_min": 18,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6acdaa26195d838e2af10b15",
+      "title": "下午的叮嘱",
+      "date": "2026-10-13",
+      "regime": "R8",
+      "dur_sec": 427,
+      "dur_min": 7,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6acd6e46e742e36efcc20218",
+      "title": "眼哥股市会 26.10.13",
+      "date": "2026-10-13",
+      "regime": "R8",
+      "dur_sec": 1485,
+      "dur_min": 25,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6ad0568fe742e36efcc340fd",
+      "title": "眼哥股市会 26.10.15",
+      "date": "2026-10-15",
+      "regime": "R8",
+      "dur_sec": 64,
+      "dur_min": 1,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6ad18d9d641ef406308c6e97",
+      "title": "眼哥股市会 26.10.16",
+      "date": "2026-10-16",
+      "regime": "R8",
+      "dur_sec": 807,
+      "dur_min": 13,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6ad58a950e4e410a05beee62",
+      "title": "眼哥股市会 26.10.19",
+      "date": "2026-10-19",
+      "regime": "R8",
+      "dur_sec": 1058,
+      "dur_min": 18,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6ad6e3f4b83cbb2aa3ef7b5a",
+      "title": "眼哥股市会 26.10.20",
+      "date": "2026-10-20",
+      "regime": "R8",
+      "dur_sec": 777,
+      "dur_min": 13,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6ad82450ef67611cac79bdc3",
+      "title": "眼哥股市会 26.10.21",
+      "date": "2026-10-21",
+      "regime": "R8",
+      "dur_sec": 645,
+      "dur_min": 11,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6ada94ea97726cd467564968",
+      "title": "眼哥股市会 26.10.23",
+      "date": "2026-10-22",
+      "regime": "R8",
+      "dur_sec": 824,
+      "dur_min": 14,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6ad98485ef67611cac7a506b",
+      "title": "眼哥股市会 26.10.22",
+      "date": "2026-10-22",
+      "regime": "R8",
+      "dur_sec": 1371,
+      "dur_min": 23,
+      "plays": null,
+      "has_clean": false
+    },
+    {
+      "eid": "6ae17b01c96c8942ec137929",
+      "title": "与大家的一次对话",
+      "date": "2026-10-28",
+      "regime": "R8",
+      "dur_sec": 2093,
+      "dur_min": 35,
+      "plays": null,
+      "has_clean": false
+    }
+  ],
+  "undated": [
+    {
+      "eid": "YVgQoVVbpF5O",
+      "title": "十一快乐！",
+      "dur_sec": 39,
+      "dur_min": 1,
+      "has_clean": false
+    },
+    {
+      "eid": "GNdsDPjOPrrO",
+      "title": "加更一条",
+      "dur_sec": 1530,
+      "dur_min": 26,
+      "has_clean": false
+    },
+    {
+      "eid": "eIdBLBH4TYuh",
+      "title": "但愿人长久 千里见苏苏",
+      "dur_sec": 4052,
+      "dur_min": 68,
+      "has_clean": false
+    },
+    {
+      "eid": "2UND4W2KddPn",
+      "title": "昨天 cpi 下周 杂谈",
+      "dur_sec": 1476,
+      "dur_min": 25,
+      "has_clean": false
+    },
+    {
+      "eid": "cWjdnpnf9oNW",
+      "title": "一条重要加更",
+      "dur_sec": 1273,
+      "dur_min": 21,
+      "has_clean": false
+    },
+    {
+      "eid": "XBraOkErTjat",
+      "title": "关于阿云节目问题的一个加更",
+      "dur_sec": 792,
+      "dur_min": 13,
+      "has_clean": false
+    },
+    {
+      "eid": "kgsp65sGOa5d",
+      "title": "眼保健操开始啦",
+      "dur_sec": 1131,
+      "dur_min": 19,
+      "has_clean": false
+    },
+    {
+      "eid": "pEzd4aIgCMlt",
+      "title": "说在8月开盘前",
+      "dur_sec": 713,
+      "dur_min": 12,
+      "has_clean": false
+    },
+    {
+      "eid": "8AL4k8YaQ4FI",
+      "title": "话讲清楚",
+      "dur_sec": 2226,
+      "dur_min": 37,
+      "has_clean": false
+    },
+    {
+      "eid": "cneLAS7qDxve",
+      "title": "关于当下的一点看法",
+      "dur_sec": 1773,
+      "dur_min": 30,
+      "has_clean": false
+    },
+    {
+      "eid": "6XAu8CkRkh5P",
+      "title": "加更",
+      "dur_sec": 726,
+      "dur_min": 12,
+      "has_clean": false
+    },
+    {
+      "eid": "ma2XXEz9TVOD",
+      "title": "眼保健操开始了",
+      "dur_sec": 1045,
+      "dur_min": 17,
+      "has_clean": false
+    },
+    {
+      "eid": "dvXzw8RUyiHN",
+      "title": "关于明天的一点叮嘱",
+      "dur_sec": 291,
+      "dur_min": 5,
+      "has_clean": false
+    },
+    {
+      "eid": "35dBhwLbUR94",
+      "title": "关于阿云节目的一点补充",
+      "dur_sec": 678,
+      "dur_min": 11,
+      "has_clean": false
+    },
+    {
+      "eid": "SEGWta2l9CNo",
+      "title": "眼保健操",
+      "dur_sec": 1016,
+      "dur_min": 17,
+      "has_clean": false
+    },
+    {
+      "eid": "wANrQRZc0r0U",
+      "title": "加人结束🔚",
+      "dur_sec": 90,
+      "dur_min": 2,
+      "has_clean": false
+    },
+    {
+      "eid": "0SkPh4e2kiDx",
+      "title": "一个小加更",
+      "dur_sec": 537,
+      "dur_min": 9,
+      "has_clean": false
+    },
+    {
+      "eid": "KHUNXxFEY26V",
+      "title": "眼保健操",
+      "dur_sec": 646,
+      "dur_min": 11,
+      "has_clean": false
+    },
+    {
+      "eid": "M36w5Orp2Cet",
+      "title": "专属更新为了你",
+      "dur_sec": 601,
+      "dur_min": 10,
+      "has_clean": false
+    },
+    {
+      "eid": "glq3hb1jDLtA",
+      "title": "还是忍不住叮嘱几句",
+      "dur_sec": 683,
+      "dur_min": 11,
+      "has_clean": false
+    },
+    {
+      "eid": "reSkAQqISJ6n",
+      "title": "旅行中的一点闲聊",
+      "dur_sec": 1036,
+      "dur_min": 17,
+      "has_clean": false
+    },
+    {
+      "eid": "M6msGKcWHYxJ",
+      "title": "A股 创新药 和这个世界",
+      "dur_sec": 4108,
+      "dur_min": 68,
+      "has_clean": false
+    },
+    {
+      "eid": "RG3fcICZdJ3G",
+      "title": "眼保健操 哈哈哈哈",
+      "dur_sec": 603,
+      "dur_min": 10,
+      "has_clean": false
+    },
+    {
+      "eid": "H7W1aVBrSQ2Z",
+      "title": "加更",
+      "dur_sec": 710,
+      "dur_min": 12,
+      "has_clean": false
+    },
+    {
+      "eid": "KcTSPvCI7rzt",
+      "title": "眼保健操开始啦",
+      "dur_sec": 579,
+      "dur_min": 10,
+      "has_clean": false
+    },
+    {
+      "eid": "kl5dDicO51kB",
+      "title": "关于AI那些事（从人形机器人到商业航天）",
+      "dur_sec": 5498,
+      "dur_min": 92,
+      "has_clean": false
+    },
+    {
+      "eid": "erFbO1gQN3Eo",
+      "title": "目前局势的一点看法和应对",
+      "dur_sec": 1163,
+      "dur_min": 19,
+      "has_clean": false
+    },
+    {
+      "eid": "hAAcdUIkzryN",
+      "title": "添加标准来啦",
+      "dur_sec": 362,
+      "dur_min": 6,
+      "has_clean": false
+    },
+    {
+      "eid": "W8N8BwfhVm6I",
+      "title": "今日收官！明年再见！",
+      "dur_sec": 439,
+      "dur_min": 7,
+      "has_clean": false
+    },
+    {
+      "eid": "RTl1r6Dm5BdB",
+      "title": "一点加更 几句废话",
+      "dur_sec": 732,
+      "dur_min": 12,
+      "has_clean": false
+    },
+    {
+      "eid": "s1ugmudWgXab",
+      "title": "2025年完美收官！",
+      "dur_sec": 219,
+      "dur_min": 4,
+      "has_clean": false
+    },
+    {
+      "eid": "TiM8V2w3i82k",
+      "title": "大A一月的思考",
+      "dur_sec": 2010,
+      "dur_min": 34,
+      "has_clean": false
+    },
+    {
+      "eid": "OlQ1u5XOi1Vc",
+      "title": "周末更新",
+      "dur_sec": 2068,
+      "dur_min": 34,
+      "has_clean": false
+    },
+    {
+      "eid": "h5CQTnGak8d1",
+      "title": "大A年前Last Dance",
+      "dur_sec": 1840,
+      "dur_min": 31,
+      "has_clean": false
+    },
+    {
+      "eid": "oXQ9Lw8fIGCb",
+      "title": "周末特辑 我与皓诚有个约会",
+      "dur_sec": 4344,
+      "dur_min": 72,
+      "has_clean": false
+    },
+    {
+      "eid": "m3Bc5LESZnEW",
+      "title": "11月总结 12月前瞻",
+      "dur_sec": 2789,
+      "dur_min": 46,
+      "has_clean": false
+    },
+    {
+      "eid": "AbH9T0VBhAot",
+      "title": "眼保健操之我是秦始皇",
+      "dur_sec": 2855,
+      "dur_min": 48,
+      "has_clean": false
+    },
+    {
+      "eid": "nPhIrhvoUT7g",
+      "title": "大A风云",
+      "dur_sec": 2348,
+      "dur_min": 39,
+      "has_clean": false
+    },
+    {
+      "eid": "1pFVtgK3KATK",
+      "title": "关于股票的那些事",
+      "dur_sec": 3600,
+      "dur_min": 60,
+      "has_clean": false
+    },
+    {
+      "eid": "xVCGAzmbbAjO",
+      "title": "关于股票的那些事(二)",
+      "dur_sec": 1813,
+      "dur_min": 30,
+      "has_clean": false
+    },
+    {
+      "eid": "GH0XxuW3UuxA",
+      "title": "个人反思和一些杂记",
+      "dur_sec": 2037,
+      "dur_min": 34,
+      "has_clean": false
+    },
+    {
+      "eid": "mbCH4oo0TcGc",
+      "title": "关于十五五和下周大A的看法",
+      "dur_sec": 3399,
+      "dur_min": 57,
+      "has_clean": false
+    },
+    {
+      "eid": "7jOxDZOliOJA",
+      "title": "关于目前大A的碎碎念",
+      "dur_sec": 3569,
+      "dur_min": 59,
+      "has_clean": false
+    },
+    {
+      "eid": "PTxahgIbOEhX",
+      "title": "大A11月",
+      "dur_sec": 2789,
+      "dur_min": 46,
+      "has_clean": false
+    },
+    {
+      "eid": "lThYQpU6KIF5",
+      "title": "太子,古巴,李云龙 还有下周的大A",
+      "dur_sec": 3115,
+      "dur_min": 52,
+      "has_clean": false
+    },
+    {
+      "eid": "6LHumEjE3fqK",
+      "title": "眼哥股市会 关于下周的思考",
+      "dur_sec": 1827,
+      "dur_min": 30,
+      "has_clean": false
+    },
+    {
+      "eid": "SwhkdCQKKg5e",
+      "title": "6.29 眼哥股市会开播拉",
+      "dur_sec": 200,
+      "dur_min": 3,
+      "has_clean": false
+    },
+    {
+      "eid": "2ZjLIoOCCDfF",
+      "title": "眼把眼教你提高幸运值",
+      "dur_sec": 1456,
+      "dur_min": 24,
+      "has_clean": false
+    },
+    {
+      "eid": "wbh2GwXa2igH",
+      "title": "大A眼保健操",
+      "dur_sec": 2959,
+      "dur_min": 49,
+      "has_clean": false
+    },
+    {
+      "eid": "4rRQLKthcLY6",
+      "title": "干货！眼把眼教你每日复盘！",
+      "dur_sec": 1982,
+      "dur_min": 33,
+      "has_clean": false
+    },
+    {
+      "eid": "W6uoBLDXZAV3",
+      "title": "紧急加更",
+      "dur_sec": 92,
+      "dur_min": 2,
+      "has_clean": false
+    },
+    {
+      "eid": "nJqS9oOyXMub",
+      "title": "节后大A生存指南",
+      "dur_sec": 3334,
+      "dur_min": 56,
+      "has_clean": false
+    },
+    {
+      "eid": "EXpySwFeRLxs",
+      "title": "添加微信的要求",
+      "dur_sec": 705,
+      "dur_min": 12,
+      "has_clean": false
+    },
+    {
+      "eid": "sPrRZj3QbpXH",
+      "title": "加更 非常重要",
+      "dur_sec": 709,
+      "dur_min": 12,
+      "has_clean": false
+    },
+    {
+      "eid": "MX3LUCI7Ci3x",
+      "title": "大A恐怖故事",
+      "dur_sec": 1884,
+      "dur_min": 31,
+      "has_clean": false
+    },
+    {
+      "eid": "WWV6w36vftgA",
+      "title": "割裂的大A 破碎的我",
+      "dur_sec": 2531,
+      "dur_min": 42,
+      "has_clean": false
+    },
+    {
+      "eid": "utkxbb78V6Bf",
+      "title": "关于下周的一点看法",
+      "dur_sec": 1268,
+      "dur_min": 21,
+      "has_clean": false
+    },
+    {
+      "eid": "btvrbYouZqAY",
+      "title": "特别加更",
+      "dur_sec": 887,
+      "dur_min": 15,
+      "has_clean": false
+    },
+    {
+      "eid": "rwUC3jU05a1u",
+      "title": "下周股市我看高低切！",
+      "dur_sec": 1498,
+      "dur_min": 25,
+      "has_clean": false
+    },
+    {
+      "eid": "2d03RhjimND1",
+      "title": "美国降息 大A怎么跟？！",
+      "dur_sec": 1327,
+      "dur_min": 22,
+      "has_clean": false
+    },
+    {
+      "eid": "UDn8oYKT8uFb",
+      "title": "股票-爱情-大家",
+      "dur_sec": 3492,
+      "dur_min": 58,
+      "has_clean": false
+    },
+    {
+      "eid": "MO4APCspVVDc",
+      "title": "韭阴真经之我在大A当股神",
+      "dur_sec": 2222,
+      "dur_min": 37,
+      "has_clean": false
+    },
+    {
+      "eid": "Qmzlutn1vk0h",
+      "title": "下周板块梳理",
+      "dur_sec": 2703,
+      "dur_min": 45,
+      "has_clean": false
+    },
+    {
+      "eid": "NVKQHBUA11aV",
+      "title": "一顿操作猛如虎(下周板块梳理)",
+      "dur_sec": 1708,
+      "dur_min": 28,
+      "has_clean": false
+    },
+    {
+      "eid": "vGbcRRbHsxiS",
+      "title": "周五复盘与思考",
+      "dur_sec": 2512,
+      "dur_min": 42,
+      "has_clean": false
+    },
+    {
+      "eid": "o5sPToNqOovR",
+      "title": "下周股市天气预报(板块梳理)",
+      "dur_sec": 1832,
+      "dur_min": 31,
+      "has_clean": false
+    },
+    {
+      "eid": "Uj9SJEP6UyRe",
+      "title": "我与股票的十八年(一个老韭菜的自白书)",
+      "dur_sec": 2328,
+      "dur_min": 39,
+      "has_clean": false
+    },
+    {
+      "eid": "xSQ1rGQQAzDK",
+      "title": "7.22日 加更",
+      "dur_sec": 314,
+      "dur_min": 5,
+      "has_clean": false
+    },
+    {
+      "eid": "Irnq21xruxyI",
+      "title": "送钱！下周又稳了！",
+      "dur_sec": 1812,
+      "dur_min": 30,
+      "has_clean": false
+    },
+    {
+      "eid": "4Uf9CT5eGIiQ",
+      "title": "24K干货！下周板块梳理！",
+      "dur_sec": 1290,
+      "dur_min": 22,
+      "has_clean": false
+    }
+  ],
+  "stats": {
+    "total": 379,
+    "dated": 309,
+    "undated": 70,
+    "by_regime": {
+      "R1": 45,
+      "R2": 78,
+      "R3": 33,
+      "R4": 20,
+      "R5": 19,
+      "R6": 60,
+      "R7": 18,
+      "R8": 36
+    },
+    "dur_by_regime_min": {
+      "R1": 912,
+      "R2": 2373,
+      "R3": 796,
+      "R4": 474,
+      "R5": 308,
+      "R6": 1062,
+      "R7": 330,
+      "R8": 626
+    },
+    "dur_total_h": 147.5,
+    "missing_duration": 0
+  }
+}

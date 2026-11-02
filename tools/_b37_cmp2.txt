@@ -1,0 +1,14 @@
+--- part0 head=# 批读批次 37 / 95 fenced=1
+--- part1 head=1. 眼哥股市会 7.21日 fenced=3
+    lines=540 first=[00:00:00] 大家好,这里是眼哥的音频节目,我是你的 last=[00:19:27] 拜拜
+    has xianqian=False has bafeite=False
+--- part2 head=2. 眼哥股市会 9月23日 fenced=3
+    lines=1200 first=[00:00:00] 大家好,这里是眼哥临平节目,我是你的眼 last=[00:37:13] 拜拜
+    has xianqian=True has bafeite=True
+--- part3 head=3. 眼哥股市会 1月26日 fenced=3
+    lines=746 first=[00:00:00] 大家好,这里是眼哥另一档节目,我是你的 last=[00:32:27] 拜拜
+    has xianqian=False has bafeite=False
+--- part4 head=4. 眼哥股市会 3月26日 fenced=3
+    lines=364 first=[00:00:00] 大家好,这里是眼哥的一名节目。我是你的 last=[00:22:26] 明天见
+    has xianqian=False has bafeite=False
+--- part5 head=抽取指令（必读） fenced=1
