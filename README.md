@@ -1,7 +1,9 @@
+<p align="center"><img src="assets/logo.jpg" alt="眼哥" width="220"></p>
+
 # 眼哥 · 股票投资思维 Skill（玟火框架全量案例）
 
 > 把股票博主「眼哥」（小宇宙《眼哥股市会》，379 期）的**投资思维体系**端到端蒸馏成
-> 可被 AI 调用的 [SKILL.md](SKILL.md)（当前 **v0.4**，25 个心智模型）。
+> 可被 AI 调用的 [SKILL.md](SKILL.md)（当前 **v0.5**，25 个心智模型）。
 >
 > 方法论：**玟火 WENHUO · 人设蒸馏框架**
 > → 仓库 [most-silence/wenhuo-skill](https://github.com/most-silence/wenhuo-skill)。
@@ -38,8 +40,9 @@
 
 ```
 眼哥/
-├── SKILL.md                 ← 最终产物 v0.4（可加载进任意 AI）
+├── SKILL.md                 ← 最终产物 v0.5（可加载进任意 AI）
 ├── README.md                ← 你在这里
+├── assets/logo.jpg          ← 项目 logo
 ├── PIPELINE_STATE.md        ← 全程流水线日志（含每次事故与修正）
 ├── 蒸馏执行手册.md           ← 流程 / 质控 / 增量协议（玟火的领域实例）
 ├── 三线隔离规则.md           ← 线1视频+线3音频合并、线2书籍独立的决策记录
