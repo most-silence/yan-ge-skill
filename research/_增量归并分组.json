@@ -1,0 +1,160 @@
+[
+ {
+  "group": 1,
+  "buckets": [
+   "B03-仓位分层"
+  ],
+  "kb": 159,
+  "increments": 17
+ },
+ {
+  "group": 2,
+  "buckets": [
+   "B07-空仓_不做"
+  ],
+  "kb": 151,
+  "increments": 24
+ },
+ {
+  "group": 3,
+  "buckets": [
+   "B09-量能"
+  ],
+  "kb": 138,
+  "increments": 15
+ },
+ {
+  "group": 4,
+  "buckets": [
+   "B10-压力支撑"
+  ],
+  "kb": 146,
+  "increments": 16
+ },
+ {
+  "group": 5,
+  "buckets": [
+   "B16-追涨_位置感"
+  ],
+  "kb": 140,
+  "increments": 10
+ },
+ {
+  "group": 6,
+  "buckets": [
+   "B17-板块_轮动"
+  ],
+  "kb": 123,
+  "increments": 6
+ },
+ {
+  "group": 7,
+  "buckets": [
+   "B18-大盘_指数"
+  ],
+  "kb": 193,
+  "increments": 9
+ },
+ {
+  "group": 8,
+  "buckets": [
+   "B21-资金_主力"
+  ],
+  "kb": 148,
+  "increments": 16
+ },
+ {
+  "group": 9,
+  "buckets": [
+   "B24-宏观_外围"
+  ],
+  "kb": 143,
+  "increments": 11
+ },
+ {
+  "group": 10,
+  "buckets": [
+   "B12-底部判断"
+  ],
+  "kb": 110,
+  "increments": 20
+ },
+ {
+  "group": 11,
+  "buckets": [
+   "B22-时间窗_日历"
+  ],
+  "kb": 109,
+  "increments": 24
+ },
+ {
+  "group": 12,
+  "buckets": [
+   "B02-止盈"
+  ],
+  "kb": 102,
+  "increments": 5
+ },
+ {
+  "group": 13,
+  "buckets": [
+   "B05-加仓_补仓"
+  ],
+  "kb": 101,
+  "increments": 4
+ },
+ {
+  "group": 14,
+  "buckets": [
+   "B19-多周期确认",
+   "B20-纪律_心态"
+  ],
+  "kb": 160,
+  "increments": 10
+ },
+ {
+  "group": 15,
+  "buckets": [
+   "B04-建仓",
+   "B11-形态_结构"
+  ],
+  "kb": 155,
+  "increments": 15
+ },
+ {
+  "group": 16,
+  "buckets": [
+   "B14-反弹",
+   "B06-减仓_清仓"
+  ],
+  "kb": 147,
+  "increments": 27
+ },
+ {
+  "group": 17,
+  "buckets": [
+   "B13-顶部判断",
+   "B08-均线系统"
+  ],
+  "kb": 138,
+  "increments": 10
+ },
+ {
+  "group": 18,
+  "buckets": [
+   "B01-止损",
+   "B23-概率_胜率",
+   "X-未分桶"
+  ],
+  "kb": 157,
+  "increments": 35
+ },
+ {
+  "group": 19,
+  "buckets": [
+   "B15-做T"
+  ],
+  "kb": 42,
+  "increments": 1
+ }
+]

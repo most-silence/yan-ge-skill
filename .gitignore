@@ -40,3 +40,15 @@ tools/_xyz_page.html
 # ===== 系统 =====
 Thumbs.db
 desktop.ini
+
+
+# ===== 增量管线临时/探测脚本 =====
+tools/_probe_*.py
+tools/fix_*.py
+tools/merge_X_increment.py
+tools/fetch_new_meta.py
+
+# ===== 归并/分桶增量前备份（可重建，不入库）=====
+sources/05-播客转写/_分桶_增量前备份/
+sources/05-播客转写/_归并_增量前备份/
+sources/05-播客转写/_规则池_pre增量.json

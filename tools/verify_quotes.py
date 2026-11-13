@@ -78,7 +78,13 @@ def build_sources():
     out = {}
     for p in glob.glob(str(TXT_DIR / "*._clean.txt")):
         name = Path(p).name
-        eid = name.split("_")[0]
+        # eid 取文件名前缀的字母数字段（旧名 `eid_标题._clean.txt`、
+        # 2026-11 增量新期为纯 `eid._clean.txt`——后者 split("_") 会带上尾点，
+        # 统一取开头的 [A-Za-z0-9]+，两种命名都兼容）
+        m = re.match(r"[A-Za-z0-9]+", name)
+        if not m:
+            continue
+        eid = m.group(0)
         try:
             out[eid] = Path(p).read_text(encoding="utf-8", errors="ignore")
         except OSError:
