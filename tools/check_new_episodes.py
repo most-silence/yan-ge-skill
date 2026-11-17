@@ -39,28 +39,35 @@ def local_eids():
     return out
 
 
-def fetch_remote_pages():
-    """普通 HTTP 抓列表页；被拦返回 None"""
+def fetch_latest_page(retries=4):
+    """抓播客列表首页（Livewire 首页 SSR 含最新 12 期）。
+
+    ⚠️ 教训：earsonme 的分页走 Livewire XHR，`?page=N` 参数无效——
+    翻多页只会反复拿到同一批最新 12 期。所以这里只取首页，但
+    新发布的期次一定排在首页里，「有没有新期」的判断不受影响。
+    首页偶发超时，必须重试；首页拿不到就返回 None（绝不静默当无新期）。
+    """
+    import time
     import urllib.request
-    out = []
-    for page in range(1, PAGES + 1):
-        url = (f"https://earsonme.com{PODCAST_PATH}" if page == 1
-               else f"https://earsonme.com{PODCAST_PATH}?page={page}")
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                          "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
-        })
+    url = "https://earsonme.com" + PODCAST_PATH
+    last_err = None
+    for attempt in range(retries):
         try:
-            with urllib.request.urlopen(req, timeout=20) as r:
+            req = urllib.request.Request(url, headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                              "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36",
+            })
+            with urllib.request.urlopen(req, timeout=30) as r:
                 html = r.read().decode("utf-8", "ignore")
+            ids = set(EP_RE.findall(html))
+            if len(ids) >= 5:           # 首页应有 12 期，太少视为残缺页
+                return ids
+            last_err = f"首页 eid 过少（{len(ids)}），疑似残缺/拦截"
         except Exception as e:
-            print(f"  page {page} 失败: {e}")
-            return None
-        ids = set(EP_RE.findall(html))
-        if not ids:
-            return None
-        out.append(ids)
-    return out
+            last_err = str(e)
+        time.sleep(3 * (attempt + 1))    # 退避重试
+    print(f"  首页抓取失败：{last_err}")
+    return None
 
 
 def fetch_via_cdp():
@@ -82,10 +89,10 @@ def main():
     known = local_eids()
     print(f"本地基准：{len(known)} 期（audio_txt clean 稿）")
 
-    pages = fetch_remote_pages()
+    remote = fetch_latest_page()
     via = "http"
-    if pages is None:
-        print("普通 HTTP 被拦，尝试 CDP …")
+    if remote is None:
+        print("HTTP 首页拿不到，尝试 CDP …")
         remote = fetch_via_cdp()
         via = "cdp"
         if remote is None:
@@ -95,18 +102,29 @@ def main():
                  "status": "unreachable", "known": len(known)},
                 ensure_ascii=False), encoding="utf-8")
             return 2
-    else:
-        remote = set().union(*pages)
+
+    # 防漏检校验：首页应与本地基准大量重叠（我们刚处理过最新期）。
+    # 若首页 eid 与本地完全不相交，多半是解析/站点结构变了，不能谎报「无新期」。
+    overlap = remote & known
+    if remote and not overlap:
+        print(f"⚠️ 首页 {len(remote)} 个 eid 与本地基准零重叠——疑似解析失效或站点改版，"
+              f"本次不下「无新期」结论，请人工核查。")
+        STATE.write_text(json.dumps(
+            {"last": __import__("datetime").datetime.now().isoformat(timespec="seconds"),
+             "status": "suspicious", "via": via, "known": len(known),
+             "remote_seen": len(remote), "overlap": 0},
+            ensure_ascii=False, indent=1), encoding="utf-8")
+        return 2
 
     new = remote - known
     now = __import__("datetime").datetime.now().isoformat(timespec="seconds")
     STATE.write_text(json.dumps(
         {"last": now, "status": "ok", "via": via,
          "known": len(known), "remote_seen": len(remote),
-         "new": sorted(new)}, ensure_ascii=False, indent=1), encoding="utf-8")
+         "overlap": len(overlap), "new": sorted(new)}, ensure_ascii=False, indent=1), encoding="utf-8")
 
     if not new:
-        print(f"远端未见新期（扫到 {len(remote)} 个 eid，全部已知）。")
+        print(f"远端未见新期（首页 {len(remote)} 个 eid，其中 {len(overlap)} 个已知）。")
         return 0
     print(f"\n发现 {len(new)} 个新期：")
     for e in sorted(new):
