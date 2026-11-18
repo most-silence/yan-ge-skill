@@ -18,11 +18,19 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.stdout.reconfigure(encoding="utf-8")
 
 POOL = ROOT / "sources" / "05-播客转写" / "_规则池.json"
-BATCHES = ["batch-96", "batch-97", "batch-98"]
+# 增量批清单：从 _规则候选/ 里扫 batch-96 及以上的批（自动纳入新批，不用每次改代码）
+_cand_dir = ROOT / "sources" / "05-播客转写" / "_规则候选"
+BATCHES = sorted(
+    [f.stem for f in _cand_dir.glob("batch-*.md")
+     if f.stem.split("-")[-1].isdigit() and int(f.stem.split("-")[-1]) >= 96])
 FIELD_LABELS = ["触发", "动作", "数字", "原话", "边界声明", "跨阶段", "备注", "冲突"]
 
-# 96/97 带段落前缀：### A1 · B96-001 · 名字；98 直接：## B98-001 · 名字
-CAND_HDR = re.compile(r"^#{2,4}\s+(?:[A-E]\d+\s*·\s*)?(B9[678]-\d{3})\s*·\s*(.+)$", re.M)
+# 候选标题三种体例：
+#   96/97：### A1 · B96-001 · 名字（带段落前缀）
+#   98：    ## B98-001 · 名字
+#   99+：   ## B99-001 · 名字 或 ### B99-001 · 名字
+CAND_HDR = re.compile(
+    r"^#{2,4}\s+(?:[A-E]\d+\s*·\s*)?(B(?:9[6-9]|1\d\d)-\d{3})\s*·\s*(.+)$", re.M)
 
 # 字段名变体：96/97 用「触发条件/动作」，98 用「触发/动作」
 FIELD_VARIANTS = {
@@ -57,7 +65,7 @@ def parse_batch(path, regime="R8"):
         body = text[pos:end]
         eid = re.search(r"期次[^`\n]*`([A-Za-z0-9]+)`", body)
         ts = re.search(r"\[(\d{2}:\d{2}:\d{2})\]", body)
-        quote = re.search(r"((?:^> \[\d{2}:\d{2}:\d{2}\][^\n]*\n)+)[^\n]*—— `([A-Za-z0-9]+)`",
+        quote = re.search(r"((?:^> \[\d{2}:\d{2}:\d{2}\][^\n]*\n)+)[ \t]*\n?[^\n]*—— `([A-Za-z0-9]+)`",
                           body, re.M)
         quote_lines = quote.group(1).rstrip("\n") if quote else ""
         out.append({

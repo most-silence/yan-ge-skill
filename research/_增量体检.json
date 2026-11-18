@@ -1,9 +1,8 @@
 {
- "last": "2026-11-17T21:51:44",
- "status": "ok",
- "via": "http",
- "known": 391,
- "remote_seen": 12,
- "overlap": 12,
- "new": []
+ "status": "new",
+ "known_titles": 1092,
+ "remote_latest": 15,
+ "new": [
+  "眼哥股市会 26.11.18"
+ ]
 }
