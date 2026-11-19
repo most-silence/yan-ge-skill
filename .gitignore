@@ -52,3 +52,5 @@ tools/fetch_new_meta.py
 sources/05-播客转写/_分桶_增量前备份/
 sources/05-播客转写/_归并_增量前备份/
 sources/05-播客转写/_规则池_pre增量.json
+
+_merge_partial_backup/
