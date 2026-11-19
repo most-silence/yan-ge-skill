@@ -108,12 +108,21 @@ def main():
 
     n_rec = 0
     bprefix = bucket.split("-")[0]  # B07 / B12 / X
+    # 分片 agent 各自从 S01 起号会撞：统一改为「桶内现有最大号 +1」自动顺延
+    existing_s = [int(x) for x in re.findall(
+        r"#{3,4}\s+(?:[A-Z]\d{2}-)?S0*(\d+)\s*·", t)]
+    next_s = (max(existing_s) + 1) if existing_s else 1
+    sid_map = {}   # agent 的 single_id → 实际分配号（同一片内保持一一对应）
     for e in entries:
         if e["mode"] == "merge":
             continue  # 已处理
         # single：整段追加到「三、冲突清单」前
         sid = e.get("single_id", e["cid"])
-        full_id = f"{bprefix}-{sid}" if not sid.startswith(bprefix) else sid
+        key = (sid, e.get("single_name", ""))   # 同名同号视为同一条（重复候选）
+        if key not in sid_map:
+            sid_map[key] = f"S{next_s:02d}"
+            next_s += 1
+        full_id = f"{bprefix}-{sid_map[key]}"
         if re.search(r"#{3,4}\s+" + re.escape(full_id) + r"\b", t):
             n_skip += 1; continue
         body = e.get("single_body", "")
@@ -121,6 +130,7 @@ def main():
         def fmt_line(label, text):
             return f"- **{label}**：{text.strip()}"
         parts_b = []
+        reason = ""
         seg_pat = re.compile(r"(触发|触发条件|动作|具体数字|原话|落点|备注)[：:]")
         marks = [(m.group(1), m.start(), m.end()) for m in seg_pat.finditer(body)]
         if marks:
@@ -128,12 +138,26 @@ def main():
                 s1 = marks[k + 1][1] if k + 1 < len(marks) else len(body)
                 txt = body[e0:s1].strip().rstrip("。.")
                 lab_full = {"触发": "触发条件", "触发条件": "触发条件"}.get(lab, lab)
+                if lab_full in ("落点", "备注"):
+                    reason = txt          # 落点/备注 → 归到「备注」字段
+                    continue
                 parts_b.append(fmt_line(lab_full, txt))
-            node = (f"\n### {full_id} · {e.get('single_name','')}\n\n"
-                    + "\n".join(parts_b) + "\n")
         else:
-            node = (f"\n### {full_id} · {e.get('single_name','')}\n\n"
-                    + body + "\n")
+            parts_b.append(fmt_line("触发条件", body))
+        # 补齐存量节点必备的四个字段（第一轮单列节点都有）
+        parts_b.append("- **跨阶段证据**：R8(1次) — 共 1 期 / 1 条候选")
+        quote = e.get("single_body", "") and re.search(r"原话[：:]\s*(> [^\n]+)", body)
+        if quote:
+            parts_b.append(f"- **代表原话**：\n\n{quote.group(1)}")
+        else:
+            parts_b.append(
+                f"- **代表原话**：**待补** —— 本条候选（{e['cid']}）未附逐字引文；"
+                f"缺引文的期次：`{e['oid']}`")
+        parts_b.append(f"- **归入了**：{e['cid']}")
+        parts_b.append("- **备注**：增量单列（batch-99/100/101，2026-11-18）"
+                       + (f"：{reason}" if reason else ""))
+        node = (f"\n### {full_id} · {e.get('single_name','')}\n\n"
+                + "\n".join(parts_b) + "\n")
         ins = re.search(r"\n## 三、冲突清单", t)
         t = (t[:ins.start()] + node + t[ins.start():]) if ins else t.rstrip() + "\n" + node
 

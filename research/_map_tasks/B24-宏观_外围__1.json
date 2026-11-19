@@ -1,0 +1,15 @@
+{
+ "bucket": "B24-宏观_外围",
+ "part": 1,
+ "cids": [
+  "B24-227",
+  "B24-228",
+  "B24-229",
+  "B24-230",
+  "B24-231",
+  "B24-232"
+ ],
+ "increment_file": "sources/05-播客转写/_增量条目/B24-宏观_外围.md",
+ "node_list": "research/_节点清单_B24-宏观_外围.txt",
+ "output": "research/_map_part_B24-宏观_外围__1.json"
+}

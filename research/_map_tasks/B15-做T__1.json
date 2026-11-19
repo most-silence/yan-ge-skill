@@ -1,0 +1,10 @@
+{
+ "bucket": "B15-做T",
+ "part": 1,
+ "cids": [
+  "B15-063"
+ ],
+ "increment_file": "sources/05-播客转写/_增量条目/B15-做T.md",
+ "node_list": "research/_节点清单_B15-做T.txt",
+ "output": "research/_map_part_B15-做T__1.json"
+}

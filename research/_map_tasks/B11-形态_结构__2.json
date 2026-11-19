@@ -1,0 +1,15 @@
+{
+ "bucket": "B11-形态_结构",
+ "part": 2,
+ "cids": [
+  "B11-295",
+  "B11-296",
+  "B11-297",
+  "B11-298",
+  "B11-299",
+  "B11-300"
+ ],
+ "increment_file": "sources/05-播客转写/_增量条目/B11-形态_结构.md",
+ "node_list": "research/_节点清单_B11-形态_结构.txt",
+ "output": "research/_map_part_B11-形态_结构__2.json"
+}

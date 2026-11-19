@@ -1,0 +1,15 @@
+{
+ "bucket": "B20-纪律_心态",
+ "part": 2,
+ "cids": [
+  "B20-280",
+  "B20-281",
+  "B20-282",
+  "B20-283",
+  "B20-284",
+  "B20-285"
+ ],
+ "increment_file": "sources/05-播客转写/_增量条目/B20-纪律_心态.md",
+ "node_list": "research/_节点清单_B20-纪律_心态.txt",
+ "output": "research/_map_part_B20-纪律_心态__2.json"
+}

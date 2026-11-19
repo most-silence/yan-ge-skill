@@ -1,0 +1,114 @@
+[
+ {
+  "cid": "B24-227",
+  "mode": "merge",
+  "target": "M60",
+  "oid": "6afd0d3ca4a79edf137af93c",
+  "ts": "00:10:00",
+  "brief": "大浪后休息「起码三年」；S2 经验时长约两个月；历史锚点 07 年、15 年、2"
+ },
+ {
+  "cid": "B24-228",
+  "mode": "merge",
+  "target": "M05",
+  "oid": "6afbbeeca4a79edf137a70be",
+  "ts": "00:05:03",
+  "brief": "科创50 前低 132（口误，疑指 13xx 一带）、现价 1200 点附近、1"
+ },
+ {
+  "cid": "B24-229",
+  "mode": "merge",
+  "target": "M03",
+  "oid": "6afad177a4a79edf137a24a0",
+  "ts": "00:08:42",
+  "brief": "5 楼。"
+ },
+ {
+  "cid": "B24-230",
+  "mode": "merge",
+  "target": "M54",
+  "oid": "6afad177a4a79edf137a24a0",
+  "ts": "00:12:26",
+  "brief": "该怕点位 4200、4300、4380；清仓后等待位 1700；当前楼层 5 楼"
+ },
+ {
+  "cid": "B24-231",
+  "mode": "merge",
+  "target": "M43",
+  "oid": "6afa6a78a4a79edf1379deff",
+  "ts": "00:04:55",
+  "brief": "未给阈值"
+ },
+ {
+  "cid": "B24-232",
+  "mode": "merge",
+  "target": "M43",
+  "oid": "6afbbeeca4a79edf137a70be",
+  "ts": "00:02:47",
+  "brief": "未给阈值"
+ },
+ {
+  "cid": "B24-233",
+  "mode": "merge",
+  "target": "M02",
+  "oid": "6afbbeeca4a79edf137a70be",
+  "ts": "00:04:29",
+  "brief": "未给阈值"
+ },
+ {
+  "cid": "B24-234",
+  "mode": "merge",
+  "target": "M05",
+  "oid": "6afbbeeca4a79edf137a70be",
+  "ts": "00:05:03",
+  "brief": "科创50 前低 132（正文原样）；现价 1200 点；120 分钟前高 102"
+ },
+ {
+  "cid": "B24-235",
+  "mode": "merge",
+  "target": "M09",
+  "oid": "6af12f9f5b7c4709bfe3235c",
+  "ts": "00:05:51",
+  "brief": "AI 短期沉压最长时间一两个月；快则一到两周、慢则一个月的调整窗口（见 B99-"
+ },
+ {
+  "cid": "B24-236",
+  "mode": "merge",
+  "target": "M60",
+  "oid": "6af12f9f5b7c4709bfe3235c",
+  "ts": "00:12:12",
+  "brief": "短则一到两周；长则一到两个月。"
+ },
+ {
+  "cid": "B24-237",
+  "mode": "merge",
+  "target": "M46",
+  "oid": "6af12f9f5b7c4709bfe3235c",
+  "ts": "00:13:14",
+  "brief": "未给阈值。"
+ },
+ {
+  "cid": "B24-238",
+  "mode": "merge",
+  "target": "M35",
+  "oid": "6af12f9f5b7c4709bfe3235c",
+  "ts": "00:17:47",
+  "brief": "未给阈值。"
+ },
+ {
+  "cid": "B24-239",
+  "mode": "merge",
+  "target": "M60",
+  "oid": "6af28c08b4a4e20202f77a8b",
+  "ts": "00:01:17",
+  "brief": "未给阈值。"
+ },
+ {
+  "cid": "B24-240",
+  "mode": "merge",
+  "target": "M18",
+  "oid": "6af28c08b4a4e20202f77a8b",
+  "ts": "00:01:44",
+  "brief": "关税从 25% 降到 10%。"
+ }
+]

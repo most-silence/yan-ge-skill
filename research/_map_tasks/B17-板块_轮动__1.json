@@ -1,0 +1,15 @@
+{
+ "bucket": "B17-板块_轮动",
+ "part": 1,
+ "cids": [
+  "B17-994",
+  "B17-995",
+  "B17-996",
+  "B17-997",
+  "B17-998",
+  "B17-999"
+ ],
+ "increment_file": "sources/05-播客转写/_增量条目/B17-板块_轮动.md",
+ "node_list": "research/_节点清单_B17-板块_轮动.txt",
+ "output": "research/_map_part_B17-板块_轮动__1.json"
+}

@@ -1,0 +1,15 @@
+{
+ "bucket": "B22-时间窗_日历",
+ "part": 4,
+ "cids": [
+  "B22-437",
+  "B22-438",
+  "B22-439",
+  "B22-440",
+  "B22-441",
+  "B22-442"
+ ],
+ "increment_file": "sources/05-播客转写/_增量条目/B22-时间窗_日历.md",
+ "node_list": "research/_节点清单_B22-时间窗_日历.txt",
+ "output": "research/_map_part_B22-时间窗_日历__4.json"
+}

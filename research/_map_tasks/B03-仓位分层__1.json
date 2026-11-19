@@ -1,0 +1,15 @@
+{
+ "bucket": "B03-仓位分层",
+ "part": 1,
+ "cids": [
+  "B03-861",
+  "B03-862",
+  "B03-863",
+  "B03-864",
+  "B03-865",
+  "B03-866"
+ ],
+ "increment_file": "sources/05-播客转写/_增量条目/B03-仓位分层.md",
+ "node_list": "research/_节点清单_B03-仓位分层.txt",
+ "output": "research/_map_part_B03-仓位分层__1.json"
+}

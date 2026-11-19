@@ -1,0 +1,13 @@
+{
+ "bucket": "B14-反弹",
+ "part": 2,
+ "cids": [
+  "B14-205",
+  "B14-206",
+  "B14-207",
+  "B14-208"
+ ],
+ "increment_file": "sources/05-播客转写/_增量条目/B14-反弹.md",
+ "node_list": "research/_节点清单_B14-反弹.txt",
+ "output": "research/_map_part_B14-反弹__2.json"
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "cid": "B17-994",
+  "mode": "merge",
+  "target": "M41",
+  "oid": "GcBwaTW6J3yK",
+  "ts": "00:00:16",
+  "brief": "3790（当日冲高位置）。"
+ },
+ {
+  "cid": "B17-995",
+  "mode": "merge",
+  "target": "M29",
+  "oid": "GcBwaTW6J3yK",
+  "ts": "00:03:10",
+  "brief": "未给具体量。"
+ },
+ {
+  "cid": "B17-996",
+  "mode": "merge",
+  "target": "M67",
+  "oid": "WV7bfnrPeLrx",
+  "ts": "00:03:59",
+  "brief": "未给具体量。"
+ },
+ {
+  "cid": "B17-997",
+  "mode": "merge",
+  "target": "M19",
+  "oid": "WV7bfnrPeLrx",
+  "ts": "00:04:19",
+  "brief": "未给具体量。"
+ },
+ {
+  "cid": "B17-998",
+  "mode": "merge",
+  "target": "M13",
+  "oid": "rUVBb4PeSCrJ",
+  "ts": "00:11:27",
+  "brief": "涨幅榜全是防御板块=典型弱势行情"
+ },
+ {
+  "cid": "B17-999",
+  "mode": "merge",
+  "target": "M14",
+  "oid": "iZl6b9NT08vn",
+  "ts": "00:13:22",
+  "brief": "结构牛结束=主升板块降级；牛有主角、熊没主角群熊割据"
+ }
+]

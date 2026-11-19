@@ -1,0 +1,15 @@
+{
+ "bucket": "B08-均线系统",
+ "part": 1,
+ "cids": [
+  "B08-369",
+  "B08-370",
+  "B08-371",
+  "B08-372",
+  "B08-373",
+  "B08-374"
+ ],
+ "increment_file": "sources/05-播客转写/_增量条目/B08-均线系统.md",
+ "node_list": "research/_节点清单_B08-均线系统.txt",
+ "output": "research/_map_part_B08-均线系统__1.json"
+}
